@@ -26,9 +26,9 @@
 		"access": "public"
 	},
 	"dependencies": {
-		"@ctx-core/date": "^6.2.8",
-		"@ctx-core/fetch": "^6.1.54",
-		"@ctx-core/object": "^6.3.6"
+		"@ctx-core/date": "^6.2.9",
+		"@ctx-core/fetch": "^6.1.55",
+		"@ctx-core/object": "^6.3.7"
 	},
 	"devDependencies": {
 		"typescript": "^3.7.3"
