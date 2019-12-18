@@ -1,7 +1,7 @@
 {
 	"name": "@ctx-core/iex",
 	"description": "@ctx-core/iex",
-	"version": "0.6.37",
+	"version": "0.6.38",
 	"scripts": {
 		"build": "npm run clean && npm run compile",
 		"clean": "rm -f tsconfig.tsbuildinfo",
@@ -27,7 +27,7 @@
 	},
 	"dependencies": {
 		"@ctx-core/date": "^6.2.14",
-		"@ctx-core/fetch": "^6.1.67",
+		"@ctx-core/fetch": "^6.1.68",
 		"@ctx-core/object": "^6.3.10"
 	},
 	"devDependencies": {
