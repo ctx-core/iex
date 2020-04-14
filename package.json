@@ -28,7 +28,7 @@
 	"dependencies": {
 		"@ctx-core/date": "^6.2.29",
 		"@ctx-core/fetch": "^6.1.110",
-		"@ctx-core/object": "^8.0.6"
+		"@ctx-core/object": "^8.0.7"
 	},
 	"devDependencies": {
 		"typescript": "^3.8.3"
