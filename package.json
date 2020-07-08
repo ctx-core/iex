@@ -1,7 +1,7 @@
 {
 	"name": "@ctx-core/iex",
 	"description": "@ctx-core/iex",
-	"version": "0.6.107",
+	"version": "0.6.108",
 	"main": "index.js",
 	"module": "index.js",
 	"types": "index.ts",
@@ -29,9 +29,9 @@
 		"access": "public"
 	},
 	"dependencies": {
-		"@ctx-core/date": "^6.2.45",
-		"@ctx-core/fetch": "^6.1.137",
-		"@ctx-core/object": "^8.1.1"
+		"@ctx-core/date": "^6.2.46",
+		"@ctx-core/fetch": "^6.1.138",
+		"@ctx-core/object": "^8.1.2"
 	},
 	"devDependencies": {
 		"typescript": "^3.9.6"
