@@ -2,9 +2,9 @@
 	"name": "@ctx-core/iex",
 	"description": "@ctx-core/iex",
 	"version": "0.6.108",
-	"main": "index.js",
-	"module": "index.js",
-	"types": "index.ts",
+	"main": "./index.js",
+	"module": "./index.js",
+	"types": "./index.ts",
 	"scripts": {
 		"build": "npm run clean && npm run compile",
 		"clean": "rm -f tsconfig.tsbuildinfo",
