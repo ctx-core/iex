@@ -29,7 +29,7 @@
 		"access": "public"
 	},
 	"dependencies": {
-		"@ctx-core/date": "^6.2.52",
+		"@ctx-core/date": "^6.2.53",
 		"@ctx-core/fetch": "^6.1.198",
 		"@ctx-core/object": "^10.0.2"
 	},
