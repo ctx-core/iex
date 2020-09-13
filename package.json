@@ -1,7 +1,21 @@
 {
 	"name": "@ctx-core/iex",
-	"description": "@ctx-core/iex",
 	"version": "0.6.173",
+	"description": "@ctx-core/iex",
+	"keywords": [
+		"ctx-core",
+		"iex"
+	],
+	"homepage": "https://github.com/ctx-core/iex#readme",
+	"bugs": {
+		"url": "https://github.com/ctx-core/iex/issues"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/ctx-core/iex/issues"
+	},
+	"license": "Apache-2.0",
+	"author": "Brian Takita",
 	"main": "./index.js",
 	"module": "./index.js",
 	"types": "./index.ts",
@@ -9,33 +23,19 @@
 		"build": "npm run clean && npm run compile",
 		"clean": "rm -f tsconfig.tsbuildinfo",
 		"compile": "tsc -b",
-		"prepublishOnly": "npm run compile",
-		"exec": "$@"
-	},
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/ctx-core/iex/issues"
-	},
-	"keywords": [
-		"ctx-core",
-		"iex"
-	],
-	"author": "Brian Takita",
-	"license": "Apache-2.0",
-	"bugs": {
-		"url": "https://github.com/ctx-core/iex/issues"
-	},
-	"homepage": "https://github.com/ctx-core/iex#readme",
-	"publishConfig": {
-		"access": "public"
+		"exec": "$@",
+		"prepublishOnly": "npm run compile"
 	},
 	"dependencies": {
-		"@ctx-core/date": "^6.2.56",
-		"@ctx-core/fetch": "^6.1.202",
-		"@ctx-core/object": "^10.0.4"
+		"@ctx-core/date": "workspace:*",
+		"@ctx-core/fetch": "workspace:*",
+		"@ctx-core/object": "workspace:*"
 	},
 	"devDependencies": {
 		"typescript": "^4.0.2"
+	},
+	"publishConfig": {
+		"access": "public"
 	},
 	"gitHead": "2aabcb0267cd11face0b0addb7e6abd5a3c1a6d7"
 }
