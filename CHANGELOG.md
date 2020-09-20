@@ -1,5 +1,14 @@
 # @ctx-core/iex
 
+## 1.0.4
+
+### Patch Changes
+
+- fix: install issues: using explicit workspace: versioning
+- Updated dependencies [undefined]
+  - @ctx-core/fetch@7.0.4
+  - @ctx-core/object@12.0.1
+
 ## 1.0.3
 
 ### Patch Changes
