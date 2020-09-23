@@ -1,5 +1,12 @@
 # @ctx-core/iex
 
+## 1.0.21
+
+### Patch Changes
+
+- Updated dependencies [undefined]
+  - @ctx-core/fetch@7.0.21
+
 ## 1.0.20
 
 ### Patch Changes
