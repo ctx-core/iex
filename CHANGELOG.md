@@ -1,5 +1,11 @@
 # @ctx-core/iex
 
+## 1.0.26
+
+### Patch Changes
+
+- @ctx-core/fetch@7.0.26
+
 ## 1.0.25
 
 ### Patch Changes
