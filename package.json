@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/iex",
-	"version": "1.0.66",
+	"version": "1.0.67",
 	"description": "@ctx-core/iex",
 	"keywords": [
 		"ctx-core",
@@ -27,8 +27,8 @@
 		"prepublishOnly": "npm run compile"
 	},
 	"dependencies": {
-		"@ctx-core/date": "workspace:^7.0.9",
-		"@ctx-core/fetch": "workspace:^7.0.66",
+		"@ctx-core/date": "workspace:^7.0.10",
+		"@ctx-core/fetch": "workspace:^7.0.67",
 		"@ctx-core/object": "workspace:^13.0.1"
 	},
 	"devDependencies": {
