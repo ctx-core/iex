@@ -1,5 +1,29 @@
 # @ctx-core/iex
 
+## 1.1.0
+
+### Minor Changes
+
+- get_ref_data_exchanges as get\_\_ref_data_exchanges
+- get_ytdChangePercent as get\_\_ytdChangePercent
+- \_ref_data_symbols_path as \_path\_\_ref_data_symbols
+- get_fx_rate as get\_\_fx_rate
+- \_iex_fetch_arg_a1 as \_a1**arg**fetch\_\_iex
+- \_peRatio_path as \_path\_\_peRatio
+- get_ref_data_symbols as get\_\_ref_data_symbols
+- get_peRatio as get\_\_peRatio
+- \_quote_path as \_path\_\_quote
+- function argument types
+- get_quote as get\_\_quote
+- \_marketcap_path as \_path\_\_marketcap
+- \_fx_rate_path as \_path\_\_fx_rate
+- \_ref_data_exchange_symbols_path as \_path\_\_ref_data_exchange_symbols
+- get_ref_data_exchange_symbols as get\_\_ref_data_exchange_symbols
+- \_ytdChangePercent_path as \_path\_\_ytdChangePercent
+- \_ref_data_exchanges_path as \_path\_\_ref_data_exchanges
+- iex_fetch as fetch\_\_iex
+- get_marketcap as get\_\_marketcap
+
 ## 1.0.98
 
 ### Patch Changes
