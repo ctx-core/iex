@@ -1,5 +1,14 @@
 # @ctx-core/iex
 
+## 2.0.47
+
+### Patch Changes
+
+- fix: npm run compile: tsc -b .
+- Updated dependencies [undefined]
+  - @ctx-core/fetch@8.0.47
+  - @ctx-core/object@17.4.1
+
 ## 2.0.46
 
 ### Patch Changes
