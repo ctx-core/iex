@@ -1,5 +1,15 @@
 # @ctx-core/iex
 
+## 2.0.48
+
+### Patch Changes
+
+- fix: npm publish: https://github.com/npm/cli/issues/2834
+- Updated dependencies [undefined]
+  - @ctx-core/date@9.1.11
+  - @ctx-core/fetch@8.0.48
+  - @ctx-core/object@17.4.2
+
 ## 2.0.47
 
 ### Patch Changes
