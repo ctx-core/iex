@@ -27,7 +27,7 @@
 		"prepublishOnly": "npm run compile"
 	},
 	"dependencies": {
-		"@ctx-core/date": "workspace:^9.1.16",
+		"@ctx-core/date": "workspace:^9.1.17",
 		"@ctx-core/fetch": "workspace:^8.0.65",
 		"@ctx-core/object": "workspace:^17.5.15"
 	},
