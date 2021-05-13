@@ -28,8 +28,8 @@
 	},
 	"dependencies": {
 		"@ctx-core/date": "workspace:^9.1.19",
-		"@ctx-core/fetch": "workspace:^8.0.68",
-		"@ctx-core/object": "workspace:^17.5.25"
+		"@ctx-core/fetch": "workspace:^8.0.69",
+		"@ctx-core/object": "workspace:^17.5.26"
 	},
 	"devDependencies": {
 		"typescript": "^4.2.4"
