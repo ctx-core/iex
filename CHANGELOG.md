@@ -1,5 +1,18 @@
 # @ctx-core/iex
 
+## 2.1.0
+
+### Minor Changes
+
+- "noImplicitAny": true
+
+### Patch Changes
+
+- Updated dependencies [undefined]
+  - @ctx-core/date@9.2.0
+  - @ctx-core/fetch@8.1.0
+  - @ctx-core/object@17.6.0
+
 ## 2.0.67
 
 ### Patch Changes

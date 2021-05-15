@@ -64,7 +64,7 @@ function getSignatureKey(key:string, datestamp:string) {
 	const signedDate = sign(key, datestamp)
 	return sign(signedDate, 'iex_request')
 }
-function sign(secret, data) {
+function sign(secret:string, data:any) {
 	return crypto.createHmac('sha256', secret).update(data, 'utf8').digest('hex')
 }
 export {
