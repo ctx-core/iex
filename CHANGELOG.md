@@ -1,5 +1,15 @@
 # @ctx-core/iex
 
+## 2.1.1
+
+### Patch Changes
+
+- fix: target: 2018: nodejs compatability
+- Updated dependencies [undefined]
+  - @ctx-core/date@9.2.1
+  - @ctx-core/fetch@8.1.1
+  - @ctx-core/object@17.6.1
+
 ## 2.1.0
 
 ### Minor Changes
