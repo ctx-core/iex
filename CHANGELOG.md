@@ -1,5 +1,11 @@
 # @ctx-core/iex
 
+## 2.1.5
+
+### Patch Changes
+
+- update dependencies
+
 ## 2.1.4
 
 ### Patch Changes
