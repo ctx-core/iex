@@ -1,5 +1,15 @@
 # @ctx-core/iex
 
+## 2.1.11
+
+### Patch Changes
+
+- types: ./src/index.d.ts: address error TS2742 issue
+- Updated dependencies [undefined]
+  - @ctx-core/date@9.2.3
+  - @ctx-core/fetch@8.1.11
+  - @ctx-core/object@18.0.6
+
 ## 2.1.10
 
 ### Patch Changes
