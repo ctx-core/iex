@@ -1,5 +1,15 @@
 # @ctx-core/iex
 
+## 2.2.1
+
+### Patch Changes
+
+- .gitignore: - \*.js
+- Updated dependencies [undefined]
+  - @ctx-core/date@9.3.1
+  - @ctx-core/fetch@8.2.1
+  - @ctx-core/object@18.1.1
+
 ## 2.2.0
 
 ### Minor Changes
