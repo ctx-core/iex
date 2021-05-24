@@ -1,5 +1,18 @@
 # @ctx-core/iex
 
+## 2.2.0
+
+### Minor Changes
+
+- dist,types directory: addressing typescript build issues
+
+### Patch Changes
+
+- Updated dependencies [undefined]
+  - @ctx-core/date@9.3.0
+  - @ctx-core/fetch@8.2.0
+  - @ctx-core/object@18.1.0
+
 ## 2.1.11
 
 ### Patch Changes
