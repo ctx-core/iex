@@ -1,5 +1,18 @@
 # @ctx-core/iex
 
+## 2.3.0
+
+### Minor Changes
+
+- fix tsc build directory issues
+
+### Patch Changes
+
+- Updated dependencies [undefined]
+  - @ctx-core/date@9.4.0
+  - @ctx-core/fetch@8.3.0
+  - @ctx-core/object@18.2.0
+
 ## 2.2.1
 
 ### Patch Changes
