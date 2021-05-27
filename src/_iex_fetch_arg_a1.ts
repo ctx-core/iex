@@ -1,9 +1,11 @@
 import crypto from 'crypto'
 import { clone } from '@ctx-core/object'
 import { _utc_yyyymmdd, _utc_yyyymmddhhmmss } from '@ctx-core/date'
-import type { iex_fetch_opts_type } from './iex_fetch_opts_type'
-export function _iex_fetch_arg_a1(path:string, opts:iex_fetch_opts_type = {}) {
-	const opts__iex = clone(opts)
+import type { iex_fetch_opts_I } from './iex_fetch_opts_I'
+export function _iex_fetch_arg_a1(
+	path:string, opts:iex_fetch_opts_I = {}
+):[string, iex_fetch_opts_I] {
+	const iex_opts:iex_fetch_opts_I = clone(opts)
 	const IEX_HOST = opts.IEX_HOST || process.env.IEX_HOST
 	const IEX_PUBLIC_KEY = opts.IEX_PUBLIC_KEY || process.env.IEX_PUBLIC_KEY
 	const IEX_SECRET_KEY = opts.IEX_SECRET_KEY || process.env.IEX_SECRET_KEY
@@ -57,8 +59,8 @@ export function _iex_fetch_arg_a1(path:string, opts:iex_fetch_opts_type = {}) {
 		'x-iex-date': iexdate,
 		'Authorization': authorization_header
 	}
-	opts__iex.headers = clone(opts.headers, headers)
-	return [`${canonical_uri}?${canonical_querystring}`, opts__iex]
+	iex_opts.headers = clone(opts.headers, headers)
+	return [`${canonical_uri}?${canonical_querystring}`, iex_opts]
 }
 function getSignatureKey(key:string, datestamp:string) {
 	const signedDate = sign(key, datestamp)

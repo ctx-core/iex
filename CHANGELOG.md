@@ -1,5 +1,15 @@
 # @ctx-core/iex
 
+## 2.4.0
+
+### Minor Changes
+
+- iex_fetch_opts_type->iex_fetch_opts_I
+
+### Patch Changes
+
+- compile issue
+
 ## 2.3.3
 
 ### Patch Changes

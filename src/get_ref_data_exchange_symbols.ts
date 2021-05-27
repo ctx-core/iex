@@ -1,8 +1,8 @@
 import { _ref_data_exchange_symbols_path } from './_ref_data_exchange_symbols_path'
 import { iex_fetch } from './iex_fetch'
-import type { iex_fetch_opts_type } from './iex_fetch_opts_type'
+import type { iex_fetch_opts_I } from './iex_fetch_opts_I'
 export async function get_ref_data_exchange_symbols(
-	params:get_ref_data_exchange_symbols_opts_type, opts:iex_fetch_opts_type
+	params:get_ref_data_exchange_symbols_opts_type, opts:iex_fetch_opts_I
 ) {
 	return (
 		iex_fetch(
