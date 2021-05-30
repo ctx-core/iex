@@ -1,10 +1,10 @@
 import { iex_fetch } from './iex_fetch'
-import { _ref_data_symbols_path } from './_ref_data_symbols_path'
+import { ref_data_symbols_path_ } from './ref_data_symbols_path_'
 import type { iex_fetch_opts_I } from './iex_fetch_opts_I'
 export async function get_ref_data_symbols(opts:iex_fetch_opts_I = {}) {
 	return (
 		iex_fetch(
-			_ref_data_symbols_path(),
+			ref_data_symbols_path_(),
 			opts)
 	)
 }

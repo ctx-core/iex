@@ -2,7 +2,7 @@ import crypto from 'crypto'
 import { clone } from '@ctx-core/object'
 import { _utc_yyyymmdd, _utc_yyyymmddhhmmss } from '@ctx-core/date'
 import type { iex_fetch_opts_I } from './iex_fetch_opts_I'
-export function _iex_fetch_arg_a1(
+export function iex_fetch_arg_a_(
 	path:string, opts:iex_fetch_opts_I = {}
 ):[string, iex_fetch_opts_I] {
 	const iex_opts:iex_fetch_opts_I = clone(opts)
@@ -70,5 +70,6 @@ function sign(secret:string, data:any) {
 	return crypto.createHmac('sha256', secret).update(data, 'utf8').digest('hex')
 }
 export {
-	_iex_fetch_arg_a1 as _a1__arg__fetch__iex
+	iex_fetch_arg_a_ as _iex_fetch_arg_a1,
+	iex_fetch_arg_a_ as _a1__arg__fetch__iex,
 }

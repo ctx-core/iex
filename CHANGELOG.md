@@ -1,5 +1,20 @@
 # @ctx-core/iex
 
+## 3.0.0
+
+### Major Changes
+
+- \$ suffix for stores
+- \_ suffix for factory functions
+
+### Patch Changes
+
+- Updated dependencies [undefined]
+- Updated dependencies [undefined]
+  - @ctx-core/date@10.0.0
+  - @ctx-core/fetch@9.0.0
+  - @ctx-core/object@19.0.0
+
 ## 2.4.0
 
 ### Minor Changes

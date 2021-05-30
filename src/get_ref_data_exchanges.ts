@@ -1,10 +1,10 @@
-import { _ref_data_exchanges_path } from './_ref_data_exchanges_path'
+import { ref_data_exchanges_path_ } from './ref_data_exchanges_path_'
 import { iex_fetch } from './iex_fetch'
 import type { iex_fetch_opts_I } from './iex_fetch_opts_I'
 export async function get_ref_data_exchanges(opts:iex_fetch_opts_I = {}) {
 	return (
 		iex_fetch(
-			_ref_data_exchanges_path(),
+			ref_data_exchanges_path_(),
 			opts)
 	)
 }
