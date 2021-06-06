@@ -28,7 +28,7 @@
 	},
 	"dependencies": {
 		"@ctx-core/date": "workspace:^10.0.0",
-		"@ctx-core/fetch": "workspace:^9.0.2",
+		"@ctx-core/fetch": "workspace:^9.0.3",
 		"@ctx-core/object": "workspace:^19.0.4"
 	},
 	"devDependencies": {
