@@ -1,5 +1,15 @@
 # @ctx-core/iex
 
+## 3.0.4
+
+### Patch Changes
+
+- fix: build: clean up old build files in dist
+- Updated dependencies [undefined]
+  - @ctx-core/date@10.0.1
+  - @ctx-core/fetch@9.0.5
+  - @ctx-core/object@19.1.2
+
 ## 3.0.3
 
 ### Patch Changes
