@@ -1,5 +1,15 @@
 # @ctx-core/iex
 
+## 3.0.5
+
+### Patch Changes
+
+- version bump: run build
+- Updated dependencies [undefined]
+  - @ctx-core/date@10.0.2
+  - @ctx-core/fetch@9.0.6
+  - @ctx-core/object@19.1.3
+
 ## 3.0.4
 
 ### Patch Changes
