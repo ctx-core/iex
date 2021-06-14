@@ -1,5 +1,18 @@
 # @ctx-core/iex
 
+## 4.0.0
+
+### Major Changes
+
+- move from dist to src directory
+
+### Patch Changes
+
+- Updated dependencies [undefined]
+  - @ctx-core/date@11.0.0
+  - @ctx-core/fetch@10.0.0
+  - @ctx-core/object@20.0.0
+
 ## 3.0.8
 
 ### Patch Changes

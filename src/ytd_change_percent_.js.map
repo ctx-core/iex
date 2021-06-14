@@ -1,0 +1,1 @@
+{"version":3,"file":"ytd_change_percent_.js","sourceRoot":"","sources":["../ytd_change_percent_.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,oBAAoB,EAAE,MAAM,wBAAwB,CAAA;AAG7D,MAAM,CAAC,KAAK,UAAU,iBAAiB,CACtC,MAAqB,EAAE,OAAwB,EAAE;IAEjD,MAAM,GAAG,GAAG,MAAM,oBAAoB,CAAC,MAAM,EAAE,IAAI,CAAC,CAAA;IACpD,OAAO,GAAG,CAAC,EAAE,IAAI,GAAG,CAAC,IAAI,EAAE,CAAA;AAC5B,CAAC"}
