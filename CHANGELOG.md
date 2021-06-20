@@ -1,5 +1,15 @@
 # @ctx-core/iex
 
+## 4.0.11
+
+### Patch Changes
+
+- fix: deploying \*.js files
+- Updated dependencies [undefined]
+  - @ctx-core/date@11.0.7
+  - @ctx-core/fetch@10.0.11
+  - @ctx-core/object@20.0.7
+
 ## 4.0.10
 
 ### Patch Changes
