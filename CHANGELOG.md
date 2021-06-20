@@ -1,5 +1,14 @@
 # @ctx-core/iex
 
+## 4.0.9
+
+### Patch Changes
+
+- npm run prepare instead of npm run prepublishOnly
+- Updated dependencies [undefined]
+  - @ctx-core/fetch@10.0.9
+  - @ctx-core/object@20.0.5
+
 ## 4.0.8
 
 ### Patch Changes
