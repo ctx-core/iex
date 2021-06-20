@@ -1,5 +1,14 @@
 # @ctx-core/iex
 
+## 4.0.10
+
+### Patch Changes
+
+- "prepare": "npm run clean && npm run compile"
+- Updated dependencies [undefined]
+  - @ctx-core/fetch@10.0.10
+  - @ctx-core/object@20.0.6
+
 ## 4.0.9
 
 ### Patch Changes
