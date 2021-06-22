@@ -1,5 +1,14 @@
 # @ctx-core/iex
 
+## 4.0.12
+
+### Patch Changes
+
+- "prepublishOnly": "npm run clean && npm run compile"
+- Updated dependencies [undefined]
+  - @ctx-core/fetch@10.0.12
+  - @ctx-core/object@20.0.8
+
 ## 4.0.11
 
 ### Patch Changes
