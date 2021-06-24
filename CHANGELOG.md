@@ -1,5 +1,15 @@
 # @ctx-core/iex
 
+## 4.0.14
+
+### Patch Changes
+
+- tsconfig.json: "lib": ["dom", "ESNext"]
+- Updated dependencies [undefined]
+  - @ctx-core/date@11.0.9
+  - @ctx-core/fetch@10.0.14
+  - @ctx-core/object@20.1.1
+
 ## 4.0.13
 
 ### Patch Changes
