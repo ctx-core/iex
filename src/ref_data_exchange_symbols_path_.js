@@ -1,5 +1,0 @@
-export function ref_data_exchange_symbols_path_({ exchange }) {
-    return `/ref-data/exchange/${exchange}/symbols`;
-}
-export { ref_data_exchange_symbols_path_ as _ref_data_exchange_symbols_path, ref_data_exchange_symbols_path_ as _path__ref_data_exchange_symbols, };
-//# sourceMappingURL=src/ref_data_exchange_symbols_path_.js.map
