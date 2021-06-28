@@ -1,5 +1,11 @@
 # @ctx-core/iex
 
+## 4.0.19
+
+### Patch Changes
+
+- update dependencies
+
 ## 4.0.18
 
 ### Patch Changes
