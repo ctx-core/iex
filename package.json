@@ -27,8 +27,8 @@
 		"prepublishOnly": "npm run build"
 	},
 	"dependencies": {
-		"@ctx-core/date": "workspace:^11.0.20",
-		"@ctx-core/fetch": "workspace:^10.0.41",
+		"@ctx-core/date": "workspace:^11.0.21",
+		"@ctx-core/fetch": "workspace:^10.0.42",
 		"@ctx-core/object": "workspace:^20.5.0"
 	},
 	"devDependencies": {
