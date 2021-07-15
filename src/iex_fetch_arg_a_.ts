@@ -1,7 +1,7 @@
 import crypto from 'crypto'
 import { clone } from '@ctx-core/object'
 import { _utc_yyyymmdd, _utc_yyyymmddhhmmss } from '@ctx-core/date'
-import type { iex_fetch_opts_I } from './iex_fetch_opts_I'
+import type { iex_fetch_opts_I } from './iex_fetch_opts_I.js'
 export function iex_fetch_arg_a_(
 	path:string, opts:iex_fetch_opts_I = {}
 ):[string, iex_fetch_opts_I] {

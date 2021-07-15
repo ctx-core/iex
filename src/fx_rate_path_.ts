@@ -1,4 +1,4 @@
-import type { fx_rate_params_type } from './fx_rate_params_type'
+import type { fx_rate_params_type } from './fx_rate_params_type.js'
 export function fx_rate_path_({ from, to }:fx_rate_params_type) {
 	return `/fx/rate/${from}/${to}`
 }

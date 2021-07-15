@@ -1,5 +1,17 @@
 # @ctx-core/iex
 
+## 5.0.1
+
+### Patch Changes
+
+- 2a6971f80: fix: "type": "module"
+- fix: "type": "module"
+- Updated dependencies [2a6971f80]
+- Updated dependencies [undefined]
+  - @ctx-core/date@12.0.1
+  - @ctx-core/fetch@11.0.1
+  - @ctx-core/object@21.0.1
+
 ## 5.0.0
 
 ### Major Changes

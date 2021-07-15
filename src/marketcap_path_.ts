@@ -1,4 +1,4 @@
-import type { quote_params_T } from './quote_params_T'
+import type { quote_params_T } from './quote_params_T.js'
 export function marketcap_path_({ ticker }:quote_params_T) {
 	return `/stock/${ticker}/stats/marketcap`
 }
