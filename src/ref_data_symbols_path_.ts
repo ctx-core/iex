@@ -1,4 +1,4 @@
-export function ref_data_symbols_path_() {
+export function ref_data_symbols_path_():string {
 	return `/ref-data/symbols`
 }
 export {

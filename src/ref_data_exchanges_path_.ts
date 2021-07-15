@@ -1,4 +1,4 @@
-export function ref_data_exchanges_path_() {
+export function ref_data_exchanges_path_():string {
 	return `/ref-data/exchanges`
 }
 export {

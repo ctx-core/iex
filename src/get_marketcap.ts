@@ -4,12 +4,8 @@ import type { quote_params_T } from './quote_params_T.js'
 import type { iex_fetch_opts_I } from './iex_fetch_opts_I.js'
 export function get_marketcap(
 	{ ticker }:quote_params_T, opts:iex_fetch_opts_I = {}
-) {
-	return (
-		iex_fetch(
-			marketcap_path_({ ticker }),
-			opts)
-	)
+):Promise<Response> {
+	return iex_fetch(marketcap_path_({ ticker }), opts)
 }
 export {
 	get_marketcap as get__marketcap

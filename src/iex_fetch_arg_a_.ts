@@ -1,6 +1,6 @@
 import crypto from 'crypto'
 import { clone } from '@ctx-core/object'
-import { _utc_yyyymmdd, _utc_yyyymmddhhmmss } from '@ctx-core/date'
+import { utc_yyyymmdd_, utc_yyyymmddhhmmss_ } from '@ctx-core/date'
 import type { iex_fetch_opts_I } from './iex_fetch_opts_I.js'
 export function iex_fetch_arg_a_(
 	path:string, opts:iex_fetch_opts_I = {}
@@ -14,8 +14,8 @@ export function iex_fetch_arg_a_(
 	const method = 'GET'
 	const canonical_querystring =
 		`token=${IEX_PUBLIC_KEY}`
-	const iexdate = `${_utc_yyyymmddhhmmss()}Z`
-	const datestamp = _utc_yyyymmdd()
+	const iexdate = `${utc_yyyymmddhhmmss_()}Z`
+	const datestamp = utc_yyyymmdd_()
 	const canonical_headers =
 		`host:${IEX_HOST}\nx-iex-date:${iexdate}\n`
 	const signed_headers = 'host;x-iex-date'
