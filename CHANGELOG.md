@@ -1,5 +1,18 @@
 # @ctx-core/iex
 
+## 5.0.0
+
+### Major Changes
+
+- "type": "module": module npm type
+
+### Patch Changes
+
+- Updated dependencies [undefined]
+  - @ctx-core/date@12.0.0
+  - @ctx-core/fetch@11.0.0
+  - @ctx-core/object@21.0.0
+
 ## 4.0.36
 
 ### Patch Changes
