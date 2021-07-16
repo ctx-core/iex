@@ -1,5 +1,15 @@
 # @ctx-core/iex
 
+## 5.0.11
+
+### Patch Changes
+
+- "main": "./dist/index.cjs"
+- Updated dependencies [undefined]
+  - @ctx-core/date@12.0.9
+  - @ctx-core/fetch@11.0.10
+  - @ctx-core/object@21.0.7
+
 ## 5.0.10
 
 ### Patch Changes
