@@ -1,5 +1,25 @@
 # @ctx-core/iex
 
+## 5.0.9
+
+### Patch Changes
+
+- back to esm module with cjs using esm npm package to load library
+- Updated dependencies [undefined]
+  - @ctx-core/date@12.0.7
+  - @ctx-core/fetch@11.0.8
+  - @ctx-core/object@21.0.5
+
+## 5.0.8
+
+### Patch Changes
+
+- back to esm module with cjs using esm npm package to load library
+- Updated dependencies [undefined]
+  - @ctx-core/date@12.0.6
+  - @ctx-core/fetch@11.0.7
+  - @ctx-core/object@21.0.4
+
 ## 5.0.7
 
 ### Patch Changes
