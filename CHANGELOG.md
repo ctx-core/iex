@@ -1,5 +1,15 @@
 # @ctx-core/iex
 
+## 5.0.12
+
+### Patch Changes
+
+- fix: cjs: load as a Promise
+- Updated dependencies [undefined]
+  - @ctx-core/date@12.0.10
+  - @ctx-core/fetch@11.0.11
+  - @ctx-core/object@21.0.8
+
 ## 5.0.11
 
 ### Patch Changes
