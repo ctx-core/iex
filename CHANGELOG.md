@@ -1,5 +1,15 @@
 # @ctx-core/iex
 
+## 5.0.7
+
+### Patch Changes
+
+- support cjs & esm: + "exports"
+- Updated dependencies [undefined]
+  - @ctx-core/date@12.0.4
+  - @ctx-core/fetch@11.0.6
+  - @ctx-core/object@21.0.3
+
 ## 5.0.6
 
 ### Patch Changes
