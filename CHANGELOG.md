@@ -1,5 +1,14 @@
 # @ctx-core/iex
 
+## 5.0.19
+
+### Patch Changes
+
+- exports: + "package.json": "./package.json"
+- Updated dependencies [undefined]
+  - @ctx-core/date@12.0.14
+  - @ctx-core/object@21.0.11
+
 ## 5.0.18
 
 ### Patch Changes
