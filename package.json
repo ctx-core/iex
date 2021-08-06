@@ -36,8 +36,8 @@
 		"prepublishOnly": "npm run build"
 	},
 	"dependencies": {
-		"@ctx-core/date": "workspace:^12.0.29",
-		"@ctx-core/fetch": "workspace:^11.0.34",
+		"@ctx-core/date": "workspace:^12.0.30",
+		"@ctx-core/fetch": "workspace:^11.0.35",
 		"@ctx-core/object": "workspace:^21.0.13",
 		"esm": "^3.2.25",
 		"iex-cloud": "^2.2.0",
