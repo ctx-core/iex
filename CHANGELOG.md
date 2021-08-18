@@ -1,5 +1,14 @@
 # @ctx-core/iex
 
+## 5.0.45
+
+### Patch Changes
+
+- update dependencies
+- Updated dependencies [undefined]
+  - @ctx-core/date@12.0.35
+  - @ctx-core/fetch@11.0.42
+
 ## 5.0.44
 
 ### Patch Changes
