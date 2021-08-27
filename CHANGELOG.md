@@ -1,5 +1,15 @@
 # @ctx-core/iex
 
+## 5.0.54
+
+### Patch Changes
+
+- typescript: ^4.3.5 -> ^4.4.2
+- Updated dependencies [undefined]
+  - @ctx-core/date@12.0.41
+  - @ctx-core/fetch@11.0.52
+  - @ctx-core/object@21.0.17
+
 ## 5.0.53
 
 ### Patch Changes
