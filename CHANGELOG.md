@@ -1,5 +1,11 @@
 # @ctx-core/iex
 
+## 5.0.73
+
+### Patch Changes
+
+- update dependencies
+
 ## 5.0.72
 
 ### Patch Changes
