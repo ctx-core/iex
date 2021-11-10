@@ -1,5 +1,15 @@
 # @ctx-core/iex
 
+## 5.0.81
+
+### Patch Changes
+
+- compile using swc
+- Updated dependencies
+  - @ctx-core/date@12.0.68
+  - @ctx-core/fetch@11.0.80
+  - @ctx-core/object@21.0.22
+
 ## 5.0.80
 
 ### Patch Changes
