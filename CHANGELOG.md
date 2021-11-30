@@ -1,5 +1,28 @@
 # @ctx-core/iex
 
+## 5.0.86
+
+### Patch Changes
+
+- @swc/cli: ^0.1.51 -> ^0.1.52
+- @swc/core: ^1.2.111 -> ^1.2.113
+- Updated dependencies
+- Updated dependencies
+  - @ctx-core/date@12.0.72
+  - @ctx-core/fetch@11.0.85
+  - @ctx-core/object@21.0.26
+
+## 5.0.85
+
+### Patch Changes
+
+- @swc/core: ^1.2.110 -> ^1.2.111
+- Updated dependencies
+- Updated dependencies
+  - @ctx-core/date@12.0.71
+  - @ctx-core/fetch@11.0.84
+  - @ctx-core/object@21.0.25
+
 ## 5.0.84
 
 ### Patch Changes
