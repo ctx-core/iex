@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/iex",
-	"version": "5.0.89",
+	"version": "5.0.90",
 	"description": "@ctx-core/iex",
 	"keywords": [
 		"ctx-core",
@@ -35,15 +35,15 @@
 		"prepublishOnly": "npm run clean && npm run build"
 	},
 	"dependencies": {
-		"@ctx-core/date": "workspace:^12.0.74",
-		"@ctx-core/fetch": "workspace:^11.0.87",
-		"@ctx-core/object": "workspace:^21.0.28",
+		"@ctx-core/date": "workspace:^12.0.75",
+		"@ctx-core/fetch": "workspace:^11.0.88",
+		"@ctx-core/object": "workspace:^21.0.29",
 		"iex-cloud": "^2.2.0",
 		"iex-ts-client": "^1.0.0"
 	},
 	"devDependencies": {
 		"@swc/cli": "^0.1.52",
-		"@swc/core": "^1.2.117",
+		"@swc/core": "^1.2.118",
 		"typescript": "next"
 	},
 	"publishConfig": {
