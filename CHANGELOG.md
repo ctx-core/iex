@@ -1,5 +1,14 @@
 # @ctx-core/iex
 
+## 5.0.93
+
+### Patch Changes
+
+- package.json: - "main": explicitly not support cjs
+- Updated dependencies
+  - @ctx-core/date@12.0.77
+  - @ctx-core/fetch@11.0.90
+
 ## 5.0.92
 
 ### Patch Changes
