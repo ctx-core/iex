@@ -1,5 +1,16 @@
 # @ctx-core/iex
 
+## 5.0.96
+
+### Patch Changes
+
+- package.json: - module
+- Updated dependencies
+- Updated dependencies
+  - @ctx-core/object@22.0.0
+  - @ctx-core/date@12.0.79
+  - @ctx-core/fetch@11.0.93
+
 ## 5.0.95
 
 ### Patch Changes
