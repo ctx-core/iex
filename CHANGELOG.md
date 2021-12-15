@@ -1,5 +1,15 @@
 # @ctx-core/iex
 
+## 5.0.101
+
+### Patch Changes
+
+- \*.d.ts export
+- Updated dependencies
+  - @ctx-core/date@13.0.4
+  - @ctx-core/fetch@11.0.97
+  - @ctx-core/object@22.0.4
+
 ## 5.0.100
 
 ### Patch Changes
