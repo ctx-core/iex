@@ -1,5 +1,15 @@
 # @ctx-core/iex
 
+## 5.0.100
+
+### Patch Changes
+
+- fix: tsconfig.json: "rootDir": "."
+- Updated dependencies
+  - @ctx-core/date@13.0.3
+  - @ctx-core/fetch@11.0.96
+  - @ctx-core/object@22.0.3
+
 ## 5.0.99
 
 ### Patch Changes
