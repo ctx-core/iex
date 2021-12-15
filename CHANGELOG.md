@@ -1,5 +1,16 @@
 # @ctx-core/iex
 
+## 5.0.98
+
+### Patch Changes
+
+- package.json: svelte: ./dist/index.js
+- Updated dependencies
+- Updated dependencies
+  - @ctx-core/date@13.0.1
+  - @ctx-core/fetch@11.0.94
+  - @ctx-core/object@22.0.1
+
 ## 5.0.97
 
 ### Patch Changes
