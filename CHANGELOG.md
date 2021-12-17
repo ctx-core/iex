@@ -1,5 +1,15 @@
 # @ctx-core/iex
 
+## 5.0.104
+
+### Patch Changes
+
+- tsconfig.json: "target": "ES2021"
+- Updated dependencies
+  - @ctx-core/date@13.0.7
+  - @ctx-core/fetch@11.0.100
+  - @ctx-core/object@22.0.7
+
 ## 5.0.103
 
 ### Patch Changes
