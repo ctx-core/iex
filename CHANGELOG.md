@@ -1,5 +1,15 @@
 # @ctx-core/iex
 
+## 5.0.103
+
+### Patch Changes
+
+- package.json: "types": "./src/index.ts": better editing experience
+- Updated dependencies
+  - @ctx-core/date@13.0.6
+  - @ctx-core/fetch@11.0.99
+  - @ctx-core/object@22.0.6
+
 ## 5.0.102
 
 ### Patch Changes
