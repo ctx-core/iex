@@ -1,5 +1,15 @@
 # @ctx-core/iex
 
+## 5.0.105
+
+### Patch Changes
+
+- fix: error TS6059: \* is not under 'rootDir': package.json: types: ./dist/index.d.ts
+- Updated dependencies
+  - @ctx-core/date@13.0.8
+  - @ctx-core/fetch@11.0.101
+  - @ctx-core/object@22.0.8
+
 ## 5.0.104
 
 ### Patch Changes

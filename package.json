@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/iex",
-	"version": "5.0.104",
+	"version": "5.0.105",
 	"description": "@ctx-core/iex",
 	"keywords": [
 		"ctx-core",
@@ -17,7 +17,7 @@
 	"license": "Apache-2.0",
 	"author": "Brian Takita",
 	"type": "module",
-	"types": "./src/index.ts",
+	"types": "./dist/index.d.ts",
 	"exports": {
 		".": {
 			"import": "./dist/index.js"
@@ -35,9 +35,9 @@
 		"prepublishOnly": "npm run clean && npm run build"
 	},
 	"dependencies": {
-		"@ctx-core/date": "workspace:^13.0.7",
-		"@ctx-core/fetch": "workspace:^11.0.100",
-		"@ctx-core/object": "workspace:^22.0.7",
+		"@ctx-core/date": "workspace:^13.0.8",
+		"@ctx-core/fetch": "workspace:^11.0.101",
+		"@ctx-core/object": "workspace:^22.0.8",
 		"iex-cloud": "^2.2.0",
 		"iex-ts-client": "^1.0.0"
 	},
