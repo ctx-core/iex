@@ -1,5 +1,14 @@
 # @ctx-core/iex
 
+## 5.0.108
+
+### Patch Changes
+
+- .js + .d.ts instead of .ts
+- Updated dependencies
+  - @ctx-core/date@13.0.9
+  - @ctx-core/fetch@11.0.104
+
 ## 5.0.107
 
 ### Patch Changes
