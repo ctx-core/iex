@@ -4,7 +4,7 @@ import { peRatio_path_ } from './peRatio_path_.js'
 import type { quote_params_T } from './quote_params_T.js'
 export function get_peRatio(
 	{ ticker }:quote_params_T, opts:iex_fetch_opts_I = {}
-):Promise<Response> {
+):Promise<[{ peRatio:number }, Response]> {
 	return iex_fetch(peRatio_path_({ ticker }), opts)
 }
 export {

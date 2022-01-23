@@ -5,9 +5,8 @@ export async function fx_rate_(params:fx_rate_params_type, opts:iex_fetch_opts_I
 	const { from, to } = params
 	if (!from) return
 	if (from === to) return 1.0
-	const res = await get_fx_rate(params, opts)
-	const json = await res.json()
-	return json.rate
+	const [payload] = await get_fx_rate(params, opts)
+	return payload.rate
 }
 export {
 	fx_rate_ as _fx_rate,
