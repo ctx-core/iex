@@ -1,5 +1,11 @@
 # @ctx-core/iex
 
+## 5.1.0
+
+### Minor Changes
+
+- @ctx-core/fetch-undici instead of @ctx-core/fetch
+
 ## 5.0.115
 
 ### Patch Changes
