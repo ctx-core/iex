@@ -1,5 +1,11 @@
 # @ctx-core/iex
 
+## 6.0.2
+
+### Patch Changes
+
+- iex_fetch: res.text() + JSON.parse: better stack trace in a non-json response
+
 ## 6.0.1
 
 ### Patch Changes

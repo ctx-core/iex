@@ -9,9 +9,7 @@ import { iex_fetch_arg_a_ } from './iex_fetch_arg_a_.js'
 export async function iex_fetch(path, in_opts = {}) {
 	const [url, opts] = iex_fetch_arg_a_(path, in_opts)
 	const res = await fetch(url, opts)
-	return [
-		await res.json(),
-		res
-	]
+	const text = await res.text()
+	return [JSON.parse(text), res]
 }
 export { iex_fetch as fetch__iex }
