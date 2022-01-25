@@ -16,6 +16,7 @@ export async function iex_fetch(path, in_opts = {}) {
 	} {
 		throw_http_error({
 			http_status: res.status,
+			url,
 			error_message: text,
 		})
 	}
