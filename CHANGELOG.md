@@ -1,5 +1,13 @@
 # @ctx-core/iex
 
+## 6.0.3
+
+### Patch Changes
+
+- iex_fetch: error response: + throw_http_error
+- Updated dependencies
+  - @ctx-core/error@11.2.0
+
 ## 6.0.2
 
 ### Patch Changes

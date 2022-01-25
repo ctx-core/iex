@@ -1,4 +1,5 @@
 import { fetch } from '@ctx-core/fetch-undici'
+import { throw_http_error } from '@ctx-core/error'
 import { iex_fetch_arg_a_ } from './iex_fetch_arg_a_.js'
 /**
  * @param {string}path
@@ -10,6 +11,13 @@ export async function iex_fetch(path, in_opts = {}) {
 	const [url, opts] = iex_fetch_arg_a_(path, in_opts)
 	const res = await fetch(url, opts)
 	const text = await res.text()
-	return [JSON.parse(text), res]
+	if (res.ok) {
+		return [JSON.parse(text), res]
+	} {
+		throw_http_error({
+			http_status: res.status,
+			error_message: text,
+		})
+	}
 }
 export { iex_fetch as fetch__iex }
