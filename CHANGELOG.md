@@ -1,5 +1,13 @@
 # @ctx-core/iex
 
+## 6.0.1
+
+### Patch Changes
+
+- .js + .d.ts instead of .ts
+- fix: fx*rate*: no from param: return null
+- fix: get_ref_data_exchange_symbols_params_T instead of get_ref_data_exchange_symbols_opts_T
+
 ## 6.0.0
 
 ### Major Changes
