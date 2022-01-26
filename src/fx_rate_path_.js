@@ -1,5 +1,5 @@
 /**
- * @param {import('./_types').fx_rate_params_type}params
+ * @param {import('./_types').fx_rate_params_T}params
  * @returns {string}
  * @private
  */

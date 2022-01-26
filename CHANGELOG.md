@@ -1,5 +1,11 @@
 # @ctx-core/iex
 
+## 6.1.0
+
+### Minor Changes
+
+- feat: fx_rate_params_T extracted from fx_rate_params_type with alias
+
 ## 6.0.4
 
 ### Patch Changes

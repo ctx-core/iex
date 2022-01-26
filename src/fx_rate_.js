@@ -1,6 +1,6 @@
 import { get_fx_rate } from './get_fx_rate.js'
 /**
- * @param {import('./_types').fx_rate_params_type}params
+ * @param {import('./_types').fx_rate_params_T}params
  * @param {import('./_types').iex_fetch_opts_I}[opts]
  * @returns {Promise<number|null>}
  * @private
