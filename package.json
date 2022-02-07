@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/iex",
-	"version": "6.1.3",
+	"version": "6.1.4",
 	"description": "@ctx-core/iex",
 	"keywords": [
 		"ctx-core",
@@ -34,10 +34,10 @@
 		"test-unit-coverage": "c8 pnpm test-unit"
 	},
 	"dependencies": {
-		"@ctx-core/date": "^13.0.12",
-		"@ctx-core/error": "^11.3.0",
-		"@ctx-core/fetch-undici": "^1.1.4",
-		"@ctx-core/object": "^22.0.13",
+		"@ctx-core/date": "workspace:^13.0.12",
+		"@ctx-core/error": "workspace:^11.3.1",
+		"@ctx-core/fetch-undici": "workspace:^1.1.5",
+		"@ctx-core/object": "workspace:*",
 		"iex-cloud": "^2.2.0",
 		"iex-ts-client": "^1.0.0"
 	},
