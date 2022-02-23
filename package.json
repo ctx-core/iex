@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/iex",
-	"version": "6.1.8",
+	"version": "6.1.9",
 	"description": "@ctx-core/iex",
 	"keywords": [
 		"ctx-core",
@@ -36,7 +36,7 @@
 	"dependencies": {
 		"@ctx-core/date": "^13.0.12",
 		"@ctx-core/error": "^11.4.0",
-		"@ctx-core/fetch-undici": "^1.2.3",
+		"@ctx-core/fetch-undici": "^1.2.4",
 		"@ctx-core/object": "*",
 		"iex-cloud": "^2.2.0",
 		"iex-ts-client": "^1.0.0"
