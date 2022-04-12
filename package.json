@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/iex",
-	"version": "6.1.14",
+	"version": "6.1.15",
 	"description": "@ctx-core/iex",
 	"keywords": [
 		"ctx-core",
@@ -19,9 +19,7 @@
 	"type": "module",
 	"types": "./src/index.d.ts",
 	"exports": {
-		".": {
-			"import": "./src/index.js"
-		},
+		".": "./src/index.js",
 		"./package.json": "./package.json"
 	},
 	"scripts": {
@@ -34,10 +32,10 @@
 		"test-unit-coverage": "c8 pnpm test-unit"
 	},
 	"dependencies": {
-		"@ctx-core/date": "^13.0.12",
-		"@ctx-core/error": "^11.4.1",
-		"@ctx-core/fetch-undici": "^1.2.14",
-		"@ctx-core/object": "^22.1.3",
+		"@ctx-core/date": "workspace:^13.0.13",
+		"@ctx-core/error": "workspace:^11.4.2",
+		"@ctx-core/fetch-undici": "workspace:^1.2.15",
+		"@ctx-core/object": "workspace:^22.1.4",
 		"iex-cloud": "^2.2.0",
 		"iex-ts-client": "^1.0.0"
 	},

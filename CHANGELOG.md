@@ -1,5 +1,17 @@
 # @ctx-core/iex
 
+## 6.1.15
+
+### Patch Changes
+
+- package.json: exports: update
+- Updated dependencies
+- Updated dependencies
+  - @ctx-core/date@13.0.13
+  - @ctx-core/error@11.4.2
+  - @ctx-core/fetch-undici@1.2.15
+  - @ctx-core/object@22.1.4
+
 ## 6.1.14
 
 ### Patch Changes
