@@ -35,7 +35,7 @@
 		"@ctx-core/date": "^13.0.13",
 		"@ctx-core/error": "^11.4.3",
 		"@ctx-core/fetch-undici": "^2.1.1",
-		"@ctx-core/object": "^22.1.5",
+		"@ctx-core/object": "^22.1.6",
 		"iex-cloud": "^2.2.0",
 		"iex-ts-client": "^1.0.0"
 	},
