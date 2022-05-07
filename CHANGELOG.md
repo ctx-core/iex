@@ -1,5 +1,11 @@
 # @ctx-core/iex
 
+## 6.1.28
+
+### Patch Changes
+
+- update dependencies
+
 ## 6.1.27
 
 ### Patch Changes
