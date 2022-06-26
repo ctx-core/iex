@@ -1,5 +1,15 @@
 # @ctx-core/iex
 
+## 6.3.0
+
+### Minor Changes
+
+- feat: + peers\_,get_peers
+
+### Patch Changes
+
+- fix: fx*rate*: non-ok response: return null
+
 ## 6.2.0
 
 ### Minor Changes

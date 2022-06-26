@@ -2,4 +2,4 @@ export interface fx_rate_params_T {
 	from:string;
 	to:string;
 }
-export type fx_rate_params_type = fx_rate_params_T
+export { fx_rate_params_T as fx_rate_params_type }
