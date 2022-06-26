@@ -1,5 +1,11 @@
 # @ctx-core/iex
 
+## 6.3.1
+
+### Patch Changes
+
+- fix: index: + peers\_
+
 ## 6.3.0
 
 ### Minor Changes
