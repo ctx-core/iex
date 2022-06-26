@@ -1,5 +1,5 @@
 /**
- * @param {import('./_types').quote_params_T}params
+ * @param {import('./_types').ticker_o_T}params
  * @returns {string}
  * @private
  */

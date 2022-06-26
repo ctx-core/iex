@@ -1,5 +1,12 @@
 # @ctx-core/iex
 
+## 6.2.0
+
+### Minor Changes
+
+- feat: peers*path*
+- ticker_o_T aliased by quote_params_T
+
 ## 6.1.33
 
 ### Patch Changes

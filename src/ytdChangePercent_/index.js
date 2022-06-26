@@ -1,6 +1,6 @@
 import { get_ytdChangePercent } from '../get_ytdChangePercent/index.js'
 /**
- * @param {import('./_types').quote_params_T}params
+ * @param {import('./_types').ticker_o_T}params
  * @param {import('./_types').iex_fetch_opts_I}[opts]
  * @returns {Promise<number|null>}
  * @private
