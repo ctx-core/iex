@@ -1,5 +1,15 @@
 # @ctx-core/iex
 
+## 6.4.0
+
+### Minor Changes
+
+- feat: + IEXRefDataSymbol,IEXRefDataExchangeSymbol
+
+  fix: get*ref_data_symbols,ref_data_symbols*: IEXRefDataSymbol
+
+  fix: get*ref_data_exchange_symbols,ref_data_exchange_symbols*: IEXRefDataExchangeSymbol
+
 ## 6.3.1
 
 ### Patch Changes
