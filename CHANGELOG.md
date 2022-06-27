@@ -1,5 +1,11 @@
 # @ctx-core/iex
 
+## 6.5.1
+
+### Patch Changes
+
+- ref*data_exchanges*,ref_data_exchanges\_\_get: fix: InternationalExchange[] return type
+
 ## 6.5.0
 
 ### Minor Changes
