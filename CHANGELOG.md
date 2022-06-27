@@ -1,5 +1,11 @@
 # @ctx-core/iex
 
+## 6.6.0
+
+### Minor Changes
+
+- feat: + ref*data_isin*,ref*data_isin\_\_get,ref_data_isin_path*
+
 ## 6.5.1
 
 ### Patch Changes
