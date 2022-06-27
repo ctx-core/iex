@@ -3,8 +3,7 @@
  * @returns {string}
  * @private
  */
-export function peers_path_(params) {
+export function company_path_(params) {
 	const { ticker } = params
-	return `/stock/${ticker}/peers`
+	return `/stock/${ticker}/company`
 }
-export { peers_path_ as _path__peers }

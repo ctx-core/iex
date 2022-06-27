@@ -3,7 +3,7 @@ import { throw_http_error } from '@ctx-core/error'
 import { iex_fetch_arg_a_ } from '../iex_fetch_arg_a_/index.js'
 /**
  * @param {string}path
- * @param {import('./_types').iex_fetch_opts_I}[in_opts]
+ * @param {import('../_types').iex_fetch_opts_I}[in_opts]
  * @returns {Promise<(any|Response)[]>}
  * @private
  */

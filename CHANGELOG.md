@@ -1,5 +1,20 @@
 # @ctx-core/iex
 
+## 6.5.0
+
+### Minor Changes
+
+- fx_rate\_\_get aliased by get_fx_rate
+- marketcap\_\_get aliased by get_marketcap
+- quote\_\_get aliased by get_quote
+- ref_data_symbols\_\_get aliased by get_ref_data_symbols
+- ref_data_exchange_symbols\_\_get aliased by get_ref_data_exchange_symbols
+- peers\_\_get aliased by get_peers
+- feat: + company\_,company\_\_get,company_path
+- peRatio\_\_get aliased by get_peRatio
+- ref_data_exchanges\_\_get aliased by get_ref_data_exchanges
+- ytdChangePercent\_\_get aliased by get_ytdChangePercent
+
 ## 6.4.0
 
 ### Minor Changes

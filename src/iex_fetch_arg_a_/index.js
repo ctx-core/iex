@@ -3,7 +3,7 @@ import { utc_yyyymmdd_, utc_yyyymmddhhmmss_ } from '@ctx-core/date'
 import { clone } from '@ctx-core/object'
 /**
  * @param {string}path
- * @param {import('./_types').iex_fetch_opts_I}[opts]
+ * @param {import('../_types').iex_fetch_opts_I}[opts]
  * @returns {(string|object)[]}
  * @private
  */

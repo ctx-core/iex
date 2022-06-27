@@ -1,5 +1,5 @@
 /**
- * @param {import('./get_ref_data_exchange_symbols').get_ref_data_exchange_symbols_params_T}params
+ * @param {import('../ref_data_exchange_symbols__get').get_ref_data_exchange_symbols_params_T}params
  * @returns {string}
  * @private
  */
