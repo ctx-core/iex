@@ -1,5 +1,11 @@
 # @ctx-core/iex
 
+## 6.6.4
+
+### Patch Changes
+
+- fix: company*,company\_\_get,company_path*
+
 ## 6.6.3
 
 ### Patch Changes

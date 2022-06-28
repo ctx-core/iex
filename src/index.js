@@ -1,3 +1,6 @@
+export * from './company_/index.js'
+export * from './company__get/index.js'
+export * from './company_path_/index.js'
 export * from './fx_rate_/index.js'
 export * from './fx_rate__get/index.js'
 export * from './fx_rate_path_/index.js'
