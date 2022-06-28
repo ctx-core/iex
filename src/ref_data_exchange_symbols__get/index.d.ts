@@ -5,7 +5,7 @@ export declare function ref_data_exchange_symbols__get(
 	IEXRefDataExchangeSymbol[], Response
 ]>
 export interface get_ref_data_exchange_symbols_params_T {
-	exchange:string;
+	exchange:string
 }
 export {
 	ref_data_exchange_symbols__get as get__ref_data_exchange_symbols,
