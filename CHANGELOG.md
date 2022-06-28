@@ -1,5 +1,11 @@
 # @ctx-core/iex
 
+## 6.6.2
+
+### Patch Changes
+
+- fix: ref_data_isin_params_T: isin: string
+
 ## 6.6.1
 
 ### Patch Changes
