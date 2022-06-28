@@ -9,4 +9,3 @@ export async function company_(params, opts = {}) {
 	const [company, res] = await company__get(params, opts)
 	return res.ok ? company : null
 }
-export { company_ as _company, }

@@ -1,4 +1,7 @@
 export * from './_types'
+export * from './company_'
+export * from './company__get'
+export * from './company_path_'
 export * from './fx_rate_'
 export * from './fx_rate__get'
 export * from './fx_rate_path_'
