@@ -1,6 +1,7 @@
 import crypto from 'crypto'
 import { utc_yyyymmdd_, utc_yyyymmddhhmmss_ } from '@ctx-core/date'
 import { clone } from '@ctx-core/object'
+import { query_str_ } from '@ctx-core/uri'
 /**
  * @param {string}path
  * @param {import('../_types').iex_fetch_opts_I}[opts]
@@ -15,7 +16,9 @@ export function iex_fetch_arg_a_(path, opts = {}) {
 	const schema__host__version = `https://${IEX_HOST}/beta`
 	const canonical_uri = `${schema__host__version}${path}`
 	const method = 'GET'
-	const canonical_querystring = `token=${IEX_PUBLIC_KEY}`
+	const { query } = opts
+	const query_str = query_str_(query, '')
+	const canonical_querystring = `token=${IEX_PUBLIC_KEY}${query_str ? `&${query_str}` : ''}`
 	const iexdate = `${utc_yyyymmddhhmmss_()}Z`
 	const datestamp = utc_yyyymmdd_()
 	const canonical_headers = `host:${IEX_HOST}\nx-iex-date:${iexdate}\n`
