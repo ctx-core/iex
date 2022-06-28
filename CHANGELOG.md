@@ -1,5 +1,15 @@
 # @ctx-core/iex
 
+## 6.7.0
+
+### Minor Changes
+
+- iex_fetch: retry on 429 response, queue to 1 request
+
+### Patch Changes
+
+- fix: ref_data_isin\_\_get: + isin query param
+
 ## 6.6.4
 
 ### Patch Changes
