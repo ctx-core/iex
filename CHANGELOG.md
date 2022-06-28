@@ -1,5 +1,11 @@
 # @ctx-core/iex
 
+## 6.6.3
+
+### Patch Changes
+
+- fix: ref_data_isin\_\_get
+
 ## 6.6.2
 
 ### Patch Changes
