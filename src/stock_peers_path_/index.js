@@ -1,0 +1,13 @@
+/**
+ * @param {import('../_types').ticker_o_T}params
+ * @returns {string}
+ * @private
+ */
+export function stock_peers_path_(params) {
+	const { ticker } = params
+	return `/stock/${ticker}/peers`
+}
+export {
+	stock_peers_path_ as peers_path_,
+	stock_peers_path_ as _path__peers,
+}
