@@ -1,5 +1,21 @@
 # @ctx-core/iex
 
+## 6.9.0
+
+### Minor Changes
+
+- stock*company*,stock*company\_\_get,stock_company_path* aliased by company*,company\_\_get,company_path*
+
+  stock*peers*,stock*peers\_\_get,stock_peers_path* aliased by peers*,peers\_\_get,peers_path*
+
+  stock*quote*,stock*quote\_\_get,stock_quote_path* aliased by quote*,quote\_\_get,quote_path*
+
+  stock*stats_marketcap*,stock*stats_marketcap\_\_get,stock_stats_marketcap_path* aliased by marketcap*,marketcap\_\_get,marketcap_path*
+
+  stock*stats_peRatio*,stock*stats_peRatio\_\_get,stock_stats_peRatio_path* aliased by peRatio*,peRatio\_\_get,peRatio_path*
+
+  stock*stats_ytdChangePercent*,stock*stats_ytdChangePercent\_\_get,stock_stats_ytdChangePercent_path* aliased by ytdChangePercent*,ytdChangePercent_path*,ytdChangePercent\_\_get
+
 ## 6.8.0
 
 ### Minor Changes
