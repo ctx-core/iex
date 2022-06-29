@@ -2,7 +2,10 @@ import { fetch } from '@ctx-core/fetch-undici'
 import { queue_ } from '@ctx-core/queue'
 import { throw_http_error } from '@ctx-core/error'
 import { iex_fetch_arg_a_ } from '../iex_fetch_arg_a_/index.js'
-const queue = queue_(1)
+let queue = queue_(1)
+export function iex_fetch__queue_size__set(queue_size) {
+  queue = queue_(queue_size)
+}
 /**
  * @param {string}path
  * @param {import('../_types').iex_fetch_opts_I}[in_opts]

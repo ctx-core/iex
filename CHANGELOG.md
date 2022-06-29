@@ -1,5 +1,11 @@
 # @ctx-core/iex
 
+## 6.8.0
+
+### Minor Changes
+
+- feat: + iex_fetch**queue_size**set
+
 ## 6.7.0
 
 ### Minor Changes
