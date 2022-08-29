@@ -1,5 +1,17 @@
 # @ctx-core/iex
 
+## 6.9.1
+
+### Patch Changes
+
+- tsx: ^3.8.2 -> ^3.9.0
+- Updated dependencies
+  - @ctx-core/error@11.5.1
+  - @ctx-core/fetch-undici@2.3.5
+  - @ctx-core/object@22.2.7
+  - @ctx-core/queue@7.3.2
+  - @ctx-core/uri@12.0.52
+
 ## 6.9.0
 
 ### Minor Changes
