@@ -1,5 +1,15 @@
 # @ctx-core/iex
 
+## 6.9.11
+
+### Patch Changes
+
+- @ctx-core/object: ^22.5.0 -> ^22.6.0
+- Updated dependencies
+  - @ctx-core/error@11.5.3
+  - @ctx-core/fetch-undici@2.3.18
+  - @ctx-core/uri@12.0.54
+
 ## 6.9.10
 
 ### Patch Changes
