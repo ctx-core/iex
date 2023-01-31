@@ -1,5 +1,13 @@
 # @ctx-core/iex
 
+## 6.9.53
+
+### Patch Changes
+
+- @ctx-core/queue: ^7.3.3 -> ^7.3.4
+- Updated dependencies
+  - @ctx-core/fetch-undici@2.3.60
+
 ## 6.9.52
 
 ### Patch Changes
