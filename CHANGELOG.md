@@ -1,5 +1,13 @@
 # @ctx-core/iex
 
+## 6.9.55
+
+### Patch Changes
+
+- @ctx-core/date: ^13.2.3 -> ^13.2.4
+- Updated dependencies
+  - @ctx-core/fetch-undici@2.3.62
+
 ## 6.9.54
 
 ### Patch Changes
