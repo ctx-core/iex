@@ -1,6 +1,6 @@
 import { fetch } from '@ctx-core/fetch-undici'
 import { queue_ } from '@ctx-core/queue'
-import { throw_http_error } from '@ctx-core/error'
+import { http_error__throw } from '@ctx-core/error'
 import { iex_fetch_arg_a_ } from '../iex_fetch_arg_a_/index.js'
 let queue = queue_(1)
 export function iex_fetch__queue_size__set(queue_size) {
@@ -32,7 +32,7 @@ async function _iex_fetch(path, in_opts) {
 				}
 			})
 		} else {
-			throw_http_error({
+			http_error__throw({
 				http_status: res.status,
 				url,
 				error_message: text,
