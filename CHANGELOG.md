@@ -1,5 +1,11 @@
 # @ctx-core/iex
 
+## 6.9.71
+
+### Patch Changes
+
+- @ctx-core/date: ^13.2.4 -> ^13.3.0
+
 ## 6.9.70
 
 ### Patch Changes
