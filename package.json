@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/iex",
-	"version": "6.9.105",
+	"version": "6.9.106",
 	"description": "@ctx-core/iex",
 	"keywords": [
 		"ctx-core",
@@ -33,11 +33,11 @@
 	},
 	"dependencies": {
 		"@ctx-core/date": "^13.3.1",
-		"@ctx-core/error": "^11.6.9",
-		"@ctx-core/fetch-undici": "^2.3.111",
-		"@ctx-core/object": "^25.2.1",
+		"@ctx-core/error": "^11.6.10",
+		"@ctx-core/fetch-undici": "^2.3.112",
+		"@ctx-core/object": "^26.0.0",
 		"@ctx-core/queue": "^7.4.0",
-		"@ctx-core/uri": "^12.1.9",
+		"@ctx-core/uri": "^12.1.10",
 		"iex-cloud": "^2.2.0",
 		"iex-ts-client": "^1.0.0"
 	},
