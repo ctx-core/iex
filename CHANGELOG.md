@@ -1,5 +1,11 @@
 # @ctx-core/iex
 
+## 6.9.110
+
+### Patch Changes
+
+- dependencies: fix: @ctx-core/env
+
 ## 6.9.109
 
 ### Patch Changes
