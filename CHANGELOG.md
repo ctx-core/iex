@@ -1,5 +1,13 @@
 # @ctx-core/iex
 
+## 6.9.109
+
+### Patch Changes
+
+- import*meta_env*() instead of process.env
+- Updated dependencies
+  - @ctx-core/env@17.2.18
+
 ## 6.9.108
 
 ### Patch Changes
