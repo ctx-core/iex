@@ -1,5 +1,11 @@
 # @ctx-core/iex
 
+## 6.9.113
+
+### Patch Changes
+
+- @ctx-core/uri: ^12.3.0 -> ^12.4.0
+
 ## 6.9.112
 
 ### Patch Changes
