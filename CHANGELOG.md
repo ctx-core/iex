@@ -1,5 +1,17 @@
 # @ctx-core/iex
 
+## 6.9.131
+
+### Patch Changes
+
+- @ctx-core/object: ^27.1.4 -> ^27.1.5
+- @ctx-core/env: ^17.2.29 -> ^17.2.30
+- Updated dependencies
+- Updated dependencies
+  - @ctx-core/error@11.6.19
+  - @ctx-core/fetch-undici@2.3.135
+  - @ctx-core/uri@12.4.7
+
 ## 6.9.130
 
 ### Patch Changes
