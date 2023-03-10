@@ -1,5 +1,13 @@
 # @ctx-core/iex
 
+## 6.9.138
+
+### Patch Changes
+
+- @ctx-core/fetch-undici: ^2.3.141 -> ^2.3.142
+- Updated dependencies
+  - @ctx-core/env@17.2.34
+
 ## 6.9.137
 
 ### Patch Changes
