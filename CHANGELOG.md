@@ -1,5 +1,11 @@
 # @ctx-core/iex
 
+## 6.9.145
+
+### Patch Changes
+
+- @ctx-core/env: ^17.2.34 -> ^17.2.36
+
 ## 6.9.144
 
 ### Patch Changes
