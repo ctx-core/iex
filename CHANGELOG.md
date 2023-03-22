@@ -1,5 +1,31 @@
 # @ctx-core/iex
 
+## 6.10.0
+
+### Minor Changes
+
+- - isin_mapping\_\_fetch_get: aliased by ref_data_isin\_\_get
+- - isin_mapping\_\_fetch_get: aliased by ref_data_isin\_\_get
+- - stock_company\_\_fetch_get: aliased by stock_company\_\_get
+- - international*exchange_a*: aliased by ref*data_exchanges*
+- - stock_quote\_\_fetch_get: aliased by quote\_\_get
+- - stock_company\_\_fetch_get: aliased by stock_company\_\_get
+- - stock_stats_peRatio\_\_fetch_get: aliased by stock_stats_peRatio\_\_get
+- - ref_data_exchange_symbols\_\_fetch_get_params_T: aliased by get_ref_data_exchange_symbols_params_T
+- - stock_stats_marketcap\_\_fetch_get: aliased by stock_stats_marketcap\_\_get
+- - company*: aliased by stock_company*
+- - ref_data_exchanges\_\_fetch_get: aliased by ref_data_exchanges\_\_get
+- - iex*ref_data_symbol_a*: aliased by ref*data_symbols*
+- - iex_fetch_opts_T: aliased by iex_fetch_opts_I
+- - iex*ref_data_exchange_symbol_a*: aliased by ref*data_exchange_symbols*
+- - stock_peers\_\_fetch_get: aliased by stock_peers\_\_get
+- - fx_rate\_\_fetch_get: aliased by fx_rate\_\_get
+- - ref_data_exchange_symbols\_\_fetch_get: aliased by ref_data_exchange_symbols\_\_get
+- - stock_stats_ytdChangePercent\_\_fetch_get: aliased by stock_stats_ytdChangePercent\_\_get
+- - quote*: aliased by stock_quote*
+- - ref_data_symbols\_\_fetch_get: aliased by ref_data_symbols_path\_\_fetch_get
+- - isin*mapping*: aliased by ref*data_isin*
+
 ## 6.9.159
 
 ### Patch Changes
