@@ -1,6 +1,6 @@
-import type { get_ref_data_exchange_symbols_params_T } from '../ref_data_exchange_symbols__get'
+import type { ref_data_exchange_symbols__fetch_get_params_T } from '../ref_data_exchange_symbols__fetch_get'
 export declare function ref_data_exchange_symbols_path_(
-	params:get_ref_data_exchange_symbols_params_T
+	params:ref_data_exchange_symbols__fetch_get_params_T
 ):string
 export {
 	ref_data_exchange_symbols_path_ as _ref_data_exchange_symbols_path,

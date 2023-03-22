@@ -5,7 +5,7 @@ import { clone } from '@ctx-core/object'
 import { query_str_ } from '@ctx-core/uri'
 /**
  * @param {string}path
- * @param {import('../_types').iex_fetch_opts_I}[opts]
+ * @param {import('../_types').iex_fetch_opts_T}[opts]
  * @returns {(string|object)[]}
  * @private
  */
