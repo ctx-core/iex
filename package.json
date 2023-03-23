@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/iex",
-	"version": "6.10.1",
+	"version": "6.10.2",
 	"description": "@ctx-core/iex",
 	"keywords": [
 		"ctx-core",
@@ -35,7 +35,7 @@
 		"@ctx-core/date": "^13.3.1",
 		"@ctx-core/env": "^17.2.41",
 		"@ctx-core/error": "^11.6.23",
-		"@ctx-core/fetch-undici": "^2.3.163",
+		"@ctx-core/fetch-undici": "^2.3.164",
 		"@ctx-core/object": "^27.3.0",
 		"@ctx-core/queue": "^7.4.0",
 		"@ctx-core/uri": "^12.4.11",
