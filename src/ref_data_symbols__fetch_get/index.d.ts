@@ -1,6 +1,6 @@
-import type { iex_fetch_opts_T, IEXRefDataSymbol } from '../_types'
+import type { iex_fetch__params_T, IEXRefDataSymbol } from '../_types'
 export declare function ref_data_symbols__fetch_get(
-	opts?:iex_fetch_opts_T
+	opts?:iex_fetch__params_T
 ):Promise<[
 	IEXRefDataSymbol[],
 	Response

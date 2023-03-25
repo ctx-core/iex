@@ -1,7 +1,7 @@
 import { iex_fetch } from '../iex_fetch/index.js'
 import { ref_data_symbols_path_ } from '../ref_data_symbols_path_/index.js'
 /**
- * @param {import('../_types').iex_fetch_opts_T}[opts]
+ * @param {import('../_types').iex_fetch__params_T}[opts]
  * @returns {Promise<[import('../_types').IEXRefDataSymbol, Response]>}
  * @private
  */

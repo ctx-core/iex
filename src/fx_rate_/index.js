@@ -1,7 +1,7 @@
 import { fx_rate__fetch_get } from '../fx_rate__fetch_get/index.js'
 /**
  * @param {import('../_types').fx_rate_params_T}params
- * @param {import('../_types').iex_fetch_opts_T}[opts]
+ * @param {import('../_types').iex_fetch__params_T}[opts]
  * @returns {Promise<number|null>}
  * @private
  */

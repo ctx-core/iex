@@ -8,7 +8,7 @@ export function iex_fetch__queue_size__set(queue_size) {
 }
 /**
  * @param {string}path
- * @param {import('../_types').iex_fetch_opts_T}[in_opts]
+ * @param {import('../_types').iex_fetch__params_T}[in_opts]
  * @returns {Promise<(any|Response)[]>}
  * @private
  */

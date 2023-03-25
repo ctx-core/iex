@@ -1,5 +1,11 @@
 # @ctx-core/iex
 
+## 6.11.0
+
+### Minor Changes
+
+- - iex_fetch\_\_params_T: aliased by iex_fetch_opts_T
+
 ## 6.10.6
 
 ### Patch Changes

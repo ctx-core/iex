@@ -1,6 +1,6 @@
 import { isin_mapping__fetch_get } from '../isin_mapping__fetch_get/index.js'
 /**
- * @param {import('../_types').iex_fetch_opts_T}[opts]
+ * @param {import('../_types').iex_fetch__params_T}[opts]
  * @returns {Promise<import('iex-cloud').InternationalExchange[]|null>}
  * @private
  */
