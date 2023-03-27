@@ -1,5 +1,11 @@
 # @ctx-core/iex
 
+## 7.0.0
+
+### Major Changes
+
+- iex_fetch: http error response: return [error_text, response] instead of throw error
+
 ## 6.11.0
 
 ### Minor Changes
