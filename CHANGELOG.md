@@ -1,5 +1,14 @@
 # @ctx-core/iex
 
+## 7.0.1
+
+### Patch Changes
+
+- @ctx-core/error: ^11.6.24 -> ^11.7.0
+- Updated dependencies
+  - @ctx-core/env@17.2.43
+  - @ctx-core/fetch-undici@2.3.169
+
 ## 7.0.0
 
 ### Major Changes
