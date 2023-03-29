@@ -1,10 +1,10 @@
 /**
- * @param {import('../_types').ticker_o_T}params
+ * @param {import('../_types').ticker_o_T}ticker_o
  * @returns {string}
  * @private
  */
-export function stock_stats_peRatio_path_(params) {
-	const { ticker } = params
+export function stock_stats_peRatio_path_(ticker_o) {
+	const { ticker } = ticker_o
 	return `/stock/${ticker}/stats/peRatio`
 }
 export {

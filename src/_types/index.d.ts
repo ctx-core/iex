@@ -1,4 +1,4 @@
-export * from './fx_rate_params_T'
+export * from './fx_rate__params_T'
 export * from './iex_fetch__params_T'
 export * from './IEXRefDataExchangeSymbol'
 export * from './IEXRefDataSymbol'

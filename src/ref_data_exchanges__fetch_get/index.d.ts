@@ -1,9 +1,9 @@
-import { type InternationalExchange } from 'iex-cloud'
+import { type InternationalExchange, type USExchange } from 'iex-cloud'
 import type { iex_fetch__params_T } from '../_types'
 export declare function ref_data_exchanges__fetch_get(
-	opts?:iex_fetch__params_T
+	iex_fetch__params?:iex_fetch__params_T
 ):Promise<[
-	InternationalExchange[],
+	(InternationalExchange|USExchange)[]|string,
 	Response
 ]>
 export {

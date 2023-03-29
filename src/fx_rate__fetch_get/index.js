@@ -1,16 +1,16 @@
 import { iex_fetch } from '../iex_fetch/index.js'
 import { fx_rate_path_ } from '../fx_rate_path_/index.js'
 /**
- * @param {import('../_types').fx_rate_params_T} params
- * @param {import('../_types').iex_fetch__params_T}[opts]
+ * @param {import('../_types').fx_rate__params_T} fx_rate__params
+ * @param {import('../_types').iex_fetch__params_T}[iex_fetch__params]
  * @returns {Promise<[{ rate:number }, Response]>}
  * @private
  */
 export function fx_rate__fetch_get(
-	params,
-	opts = {}
+	fx_rate__params,
+	iex_fetch__params = {}
 ) {
-	return iex_fetch(fx_rate_path_(params), opts)
+	return iex_fetch(fx_rate_path_(fx_rate__params), iex_fetch__params)
 }
 export {
 	fx_rate__fetch_get as fx_rate__get,

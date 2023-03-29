@@ -1,7 +1,7 @@
 import type { iex_fetch__params_T, IEXRefDataExchangeSymbol } from '../_types'
 export declare function ref_data_exchange_symbols__fetch_get(
 	params:ref_data_exchange_symbols__fetch_get_params_T,
-	opts:iex_fetch__params_T
+	iex_fetch__params:iex_fetch__params_T
 ):Promise<[
 	IEXRefDataExchangeSymbol[],
 	Response

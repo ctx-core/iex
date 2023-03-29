@@ -1,18 +1,18 @@
 import { ref_data_exchange_symbols__fetch_get } from '../ref_data_exchange_symbols__fetch_get/index.js'
 /**
  * @param {import('../ref_data_exchange_symbols__fetch_get').ref_data_exchange_symbols__fetch_get_params_T}params
- * @param {import('../_types').iex_fetch__params_T}opts
+ * @param {import('../_types').iex_fetch__params_T}iex_fetch__params
  * @returns {Promise<import('../_types').IEXRefDataExchangeSymbol[]|null>}
  * @private
  */
 export async function iex_ref_data_exchange_symbol_a_(
 	params,
-	opts
+	iex_fetch__params
 ) {
 	const [
 		fx_symbols,
 		res
-	] = await ref_data_exchange_symbols__fetch_get(params, opts)
+	] = await ref_data_exchange_symbols__fetch_get(params, iex_fetch__params)
 	return res.ok ? fx_symbols : null
 }
 export {
