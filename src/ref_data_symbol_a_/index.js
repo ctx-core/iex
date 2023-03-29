@@ -4,7 +4,7 @@ import { ref_data_symbols__fetch_get } from '../ref_data_symbols__fetch_get/inde
  * @returns {Promise<import('../_types').IEXRefDataSymbol[]|null>}
  * @private
  */
-export async function iex_ref_data_symbol_a_(opts = {}) {
+export async function ref_data_symbol_a_(opts = {}) {
 	const [
 		ref_data_symbols,
 		res
@@ -12,5 +12,6 @@ export async function iex_ref_data_symbol_a_(opts = {}) {
 	return res.ok ? ref_data_symbols : null
 }
 export {
-	iex_ref_data_symbol_a_ as ref_data_symbols_,
+	ref_data_symbol_a_ as iex_ref_data_symbol_a_,
+	ref_data_symbol_a_ as ref_data_symbols_,
 }

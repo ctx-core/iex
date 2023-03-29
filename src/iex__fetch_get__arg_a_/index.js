@@ -3,13 +3,14 @@ import { utc_yyyymmdd_, utc_yyyymmddhhmmss_ } from '@ctx-core/date'
 import { import_meta_env_ } from '@ctx-core/env'
 import { clone } from '@ctx-core/object'
 import { query_str_ } from '@ctx-core/uri'
+/** @typedef {import('../_types').iex_fetch__params_T}iex_fetch__params_T */
 /**
  * @param {string}path
- * @param {import('../_types').iex_fetch__params_T}[params]
- * @returns {(string|object)[]}
+ * @param {iex_fetch__params_T}[params]
+ * @returns {Promise<[string, iex_fetch__params_T]>}
  * @private
  */
-export async function iex_fetch_arg_a_(
+export async function iex__fetch_get__arg_a_(
 	path,
 	params = {}
 ) {
@@ -67,8 +68,9 @@ export async function iex_fetch_arg_a_(
 	]
 }
 export {
-	iex_fetch_arg_a_ as _iex_fetch_arg_a1,
-	iex_fetch_arg_a_ as _a1__arg__fetch__iex,
+	iex__fetch_get__arg_a_ as iex_fetch_arg_a_,
+	iex__fetch_get__arg_a_ as _iex_fetch_arg_a1,
+	iex__fetch_get__arg_a_ as _a1__arg__fetch__iex,
 }
 /**
  * @param {string}IEX_SECRET_KEY

@@ -5,7 +5,7 @@ import { ref_data_exchange_symbols__fetch_get } from '../ref_data_exchange_symbo
  * @returns {Promise<import('../_types').IEXRefDataExchangeSymbol[]|null>}
  * @private
  */
-export async function iex_ref_data_exchange_symbol_a_(
+export async function ref_data_exchange_symbol_a_(
 	params,
 	iex_fetch__params
 ) {
@@ -16,6 +16,7 @@ export async function iex_ref_data_exchange_symbol_a_(
 	return res.ok ? fx_symbols : null
 }
 export {
-	iex_ref_data_exchange_symbol_a_ as ref_data_exchange_symbols_,
-	iex_ref_data_exchange_symbol_a_ as _ref_data_exchange_symbols,
+	ref_data_exchange_symbol_a_ as iex_ref_data_exchange_symbol_a_,
+	ref_data_exchange_symbol_a_ as ref_data_exchange_symbols_,
+	ref_data_exchange_symbol_a_ as _ref_data_exchange_symbols,
 }

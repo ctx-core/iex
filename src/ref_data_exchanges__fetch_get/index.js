@@ -1,16 +1,17 @@
-import { iex_fetch } from '../iex_fetch/index.js'
+import { iex__fetch_get } from '../iex__fetch_get/index.js'
 import { ref_data_exchanges_path_ } from '../ref_data_exchanges_path_/index.js'
+/** @typedef {import('@ctx-core/error').HttpError}HttpError */
 /** @typedef {import('iex-cloud').InternationalExchange}InternationalExchange */
 /** @typedef {import('iex-cloud').USExchange}USExchange */
 /**
  * @param {import('../_types').iex_fetch__params_T}[iex_fetch__params]
- * @returns {(InternationalExchange|USExchange)[], Response]>}
+ * @returns {Promise<(InternationalExchange|USExchange)[], Response]|[HttpError, Response]>}
  * @private
  */
 export async function ref_data_exchanges__fetch_get(
 	iex_fetch__params = {}
 ) {
-	return iex_fetch(ref_data_exchanges_path_(), iex_fetch__params)
+	return iex__fetch_get(ref_data_exchanges_path_(), iex_fetch__params)
 }
 export {
 	ref_data_exchanges__fetch_get as ref_data_exchanges__get,
