@@ -1,5 +1,36 @@
 # @ctx-core/iex
 
+## 7.1.0
+
+### Minor Changes
+
+- - iex\_\_fetch_get\__arg_a_: aliased by iex*fetch_arg_a*
+- - isin_mapping\_\_params_T: aliased by isin_mapping_params_T
+- \*\_\_fetch_get: return type: Promise<[payload type, Response]|[HttpError, Response]>
+
+  fx_rate\_\_fetch_get
+  isin_mapping\_\_fetch_get
+  ref_data_exchange_symbols\_\_fetch_get
+  ref_data_exchanges\_\_fetch_get
+  ref_data_symbols\_\_fetch_get
+  stock_company\_\_fetch_get
+  stock_peers\_\_fetch_get
+  stock_quote\_\_fetch_get
+  stock_stats_marketcap\_\_fetch_get
+  stock_stats_peRatio\_\_fetch_get
+  stock_stats_ytdChangePercent\_\_fetch_get
+
+- - iex\_\_fetch_get: aliased by iex_fetch
+- - ref*data_exchange_symbol_a*: aliased by iex*ref_data_exchange_symbol_a*
+- - ref*data_symbol_a*: aliased by iex*ref_data_symbol_a*
+- - fx_rate\_\_params_T: aliased by fx_rate_params_T
+- isomorphic: + browser support
+- - iex\_\_fetch_get\_\_queue_size\_\_set: aliased by iex_fetch\_\_queue_size\_\_set
+
+### Patch Changes
+
+- ∋ @ctx-core/crypto
+
 ## 7.0.5
 
 ### Patch Changes
