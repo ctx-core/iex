@@ -1,5 +1,16 @@
 # @ctx-core/iex
 
+## 8.1.0
+
+### Minor Changes
+
+- - key*stat*: aliased by stock*stats*
+
+### Patch Changes
+
+- key*stat*: fix: return type: Promise<KeyStat|null>
+- stock_stats\_\_fetch_get: return type: fix: Promise<[KeyStat, Response]|[HttpError, Response]>
+
 ## 8.0.0
 
 ### Major Changes

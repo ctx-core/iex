@@ -9,7 +9,3 @@ export declare function stock_stats__fetch_get(
 	[KeyStat, Response]
 	|[HttpError, Response]
 >
-export declare function stock_stats_(
-	ticker:string,
-	iex_fetch__params?:iex_fetch__params_T
-):Promise<string|null>
