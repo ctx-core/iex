@@ -1,5 +1,12 @@
 # @ctx-core/iex
 
+## 7.4.1
+
+### Patch Changes
+
+- international*exchange_a*: return type: fix: international_exchange_T[]|null
+- isin*mapping*: js: argument types: fix: (isin_mapping**params?:isin_mapping**params_T, iex_fetch**params?:iex_fetch**params_T)
+
 ## 7.4.0
 
 ### Minor Changes
