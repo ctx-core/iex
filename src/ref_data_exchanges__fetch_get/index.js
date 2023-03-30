@@ -3,9 +3,10 @@ import { ref_data_exchanges_path_ } from '../ref_data_exchanges_path_/index.js'
 /** @typedef {import('@ctx-core/error').HttpError}HttpError */
 /** @typedef {import('iex-cloud').InternationalExchange}InternationalExchange */
 /** @typedef {import('iex-cloud').USExchange}USExchange */
+/** @typedef {import('./index.d.ts').ref_data_exchanges__fetch_get__payload_T}ref_data_exchanges__fetch_get__payload_T */
 /**
  * @param {import('../_types').iex_fetch__params_T}[iex_fetch__params]
- * @returns {Promise<(InternationalExchange|USExchange)[], Response]|[HttpError, Response]>}
+ * @returns {Promise<ref_data_exchanges__fetch_get__payload_T[], Response]|[HttpError, Response]>}
  * @private
  */
 export async function ref_data_exchanges__fetch_get(

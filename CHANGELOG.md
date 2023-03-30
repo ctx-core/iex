@@ -1,5 +1,12 @@
 # @ctx-core/iex
 
+## 7.2.0
+
+### Minor Changes
+
+- - ref_data_exchanges**fetch_get**payload_T
+- ref_data_exchanges**fetch_get: returns Promise<[ref_data_exchanges**fetch_get\_\_payload_T[], Response]|[HttpError, Response]>
+
 ## 7.1.4
 
 ### Patch Changes
