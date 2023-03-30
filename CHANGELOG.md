@@ -1,5 +1,11 @@
 # @ctx-core/iex
 
+## 7.4.0
+
+### Minor Changes
+
+- - international_exchange_T: aliased by ref_data_exchanges**fetch_get**payload_T
+
 ## 7.3.0
 
 ### Minor Changes
