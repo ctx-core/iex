@@ -1,5 +1,95 @@
 # @ctx-core/iex
 
+## 8.0.0
+
+### Major Changes
+
+- - ref_data_exchange_symbols**get,get**ref_data_exchange_symbols,get_ref_data_exchange_symbols
+- - ref_data_symbols_path**fetch_get,ref_data_symbols**get,get\_\_ref_data_symbols,get_ref_data_symbols
+- - fx_rate**get,get**fx_rate,get_fx_rate
+- - ref_data_isin\_\_get,get_ref_data_isin
+- - iex*ref_data_symbol_a*,ref*data_symbols*
+- - iex**fetch_get**arg*a*: private
+- - peers\_
+- - \_path\_\_ref_data_exchanges
+- - ticker_o_T
+- - quote*path*,\_quote_path,\_path\_\_quote
+- - \_ref_data_exchange_symbols_path,\_path\_\_ref_data_exchange_symbols
+- - isin_mapping\_\_params_T
+- - ref*data_exchanges*
+- - peRatio\_,_peRatio
+- - stock_peers**get,peers**get,get\_\_peers,get_peers
+- - peRatio*path*,\_peRatio_path,\_path\_\_peRatio
+- - ytdChangePercent*path*,\_path\_\_ytdChangePercent
+- - iex_fetch**queue_size**set
+- - stock_stats_ytdChangePercent**get,ytdChangePercent**get,get\_\_ytdChangePercent,get_ytdChangePercent
+- - \_fx_rate
+- - iex*ref_data_exchange_symbol_a*,ref*data_exchange_symbols*,\_ref_data_exchange_symbols
+- - stock_stats_marketcap**get,marketcap**get,get\_\_marketcap,get_marketcap
+- - \_path\_\_ref_data_symbols
+- - \_fx_rate_path,\_path\_\_fx_rate
+- - ref_data_exchanges**get,get**ref_data_exchanges,get_ref_data_exchanges
+- - stock_company**get,company**get,get_company
+- - ytdChangePercent\_
+- - ref*data_isin*
+- - fx_rate_params_T,fx_rate_params_type
+- - ref_data_exchange_symbols\_\_fetch_get_params_T
+- - marketcap*path*,\_marketcap_path,\_path\_\_marketcap
+- - peers*path*,\_path\_\_peers
+- - company*path*
+- - iex_fetch,fetch\_\_iex
+- argument changes: exchange:string instead of params:ref_data_exchange_symbols\_\_fetch_get_params_T:
+
+  ref*data_exchange_symbols_path*
+  ref*data_exchange_symbols\_\_fetch_get
+  ref_data_exchange_symbol_a*
+
+- arguments: isin:string instead of isin_mapping**params:isin_mapping**params_T:
+
+  isin*mapping*
+  ref_data_isin\_\_fetch_get
+
+- - quote**get,get**quote,get_quote
+- - iex*fetch_arg_a*,\_iex_fetch_arg_a1,\_a1**arg**fetch\_\_iex
+- - stock_stats_peRatio**get,peRatio**get,get\_\_peRatio,get_peRatio
+- - stock*quote*,\_quote
+- arguments: ticker:string instead of ticker_o:ticker_o_T:
+
+  company*
+  quote*
+  stock*company\_\_fetch_get
+  stock_company_path*
+  stock*peers_path*
+  stock*peers\_\_fetch_get
+  stock_peers*
+  stock*quote_path*
+  stock*quote**fetch_get
+  stock_stats_marketcap**fetch_get
+  stock_stats_marketcap*
+  stock*stats_marketcap_path*
+  stock*stats_marketcap\_\_fetch_get
+  stock_stats_marketcap*
+  stock*stats_peRatio_path*
+  stock*stats_peRatio\_\_fetch_get
+  stock_stats_peRatio*
+  stock*stats_peRatio_path*
+  stock*stats_peRatio\_\_fetch_get
+  stock_stats_peRatio*
+  stock*stats_ytdChangePercent_path*
+  stock*stats_ytdChangePercent\_\_fetch_get
+  stock_stats_ytdChangePercent*
+
+### Minor Changes
+
+- - stock*stats_path*,stock*stats\_\_fetch_get,stock_stats*
+- - ref*data_isin*: alias of isin*mapping*
+- - stock*quote*: alias of quote\_
+- - ref*data_market_us_exchanges*: alias of us*exchange_a*
+
+### Patch Changes
+
+- - marketcap\_,_marketcap
+
 ## 7.4.1
 
 ### Patch Changes

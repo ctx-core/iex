@@ -1,18 +1,18 @@
-import { isin_mapping__fetch_get } from '../isin_mapping__fetch_get/index.js'
+import { ref_data_isin__fetch_get } from '../ref_data_isin/index.js'
 /**
- * @param {import('../_types').isin_mapping__params_T}[isin_mapping__params]
+ * @param {string}[isin]
  * @param {import('../_types').iex_fetch__params_T}[iex_fetch__params]
  * @returns {Promise<import('iex-cloud').ISINMapping|null>}
  * @private
  */
 export async function isin_mapping_(
-	isin_mapping__params,
+	isin,
 	iex_fetch__params = {}
 ) {
 	const [
 		ref_data_isin,
 		res
-	] = await isin_mapping__fetch_get(isin_mapping__params, iex_fetch__params)
+	] = await ref_data_isin__fetch_get(isin, iex_fetch__params)
 	return res.ok ? ref_data_isin : null
 }
 export {
