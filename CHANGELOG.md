@@ -1,5 +1,13 @@
 # @ctx-core/iex
 
+## 7.3.0
+
+### Minor Changes
+
+- - us*exchange_a*
+- - ref*data_market_us_exchanges_path*
+- - ref_data_market_us_exchanges\_\_fetch_get
+
 ## 7.2.0
 
 ### Minor Changes
