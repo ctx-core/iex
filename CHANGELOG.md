@@ -1,5 +1,11 @@
 # @ctx-core/iex
 
+## 7.1.2
+
+### Patch Changes
+
+- @ctx-core/crypto: ^1.1.0 -> ^1.1.1
+
 ## 7.1.1
 
 ### Patch Changes
