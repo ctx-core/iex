@@ -1,5 +1,11 @@
 # @ctx-core/iex
 
+## 8.1.5
+
+### Patch Changes
+
+- stock*peers*: fix: implementation: await stock_peers\_\_fetch_get
+
 ## 8.1.4
 
 ### Patch Changes
