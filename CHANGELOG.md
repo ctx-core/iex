@@ -1,5 +1,11 @@
 # @ctx-core/iex
 
+## 8.1.4
+
+### Patch Changes
+
+- stock*peers*: js: fix: return value: Promise<string[]|null>
+
 ## 8.1.3
 
 ### Patch Changes

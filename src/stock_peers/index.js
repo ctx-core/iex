@@ -30,5 +30,6 @@ export async function stock_peers_(
 	ticker,
 	iex_fetch__params = {}
 ) {
-	return stock_peers__fetch_get(ticker, iex_fetch__params)
+	const [stock_peers, response] = stock_peers__fetch_get(ticker, iex_fetch__params)
+	return response.ok ? stock_peers : null
 }
