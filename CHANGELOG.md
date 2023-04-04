@@ -1,5 +1,11 @@
 # @ctx-core/iex
 
+## 8.1.19
+
+### Patch Changes
+
+- @ctx-core/date: ^13.3.1 -> ^13.3.2
+
 ## 8.1.18
 
 ### Patch Changes
