@@ -18,7 +18,9 @@ export function stock_peers__fetch_get(
 	ticker,
 	iex_fetch__params = {}
 ) {
-	return iex__fetch_get(stock_peers_path_(ticker), iex_fetch__params)
+	return iex__fetch_get(
+		stock_peers_path_(ticker),
+		iex_fetch__params)
 }
 /**
  * @param {string}ticker
@@ -31,8 +33,14 @@ export async function stock_peers_(
 	iex_fetch__params = {}
 ) {
 	const [
-		stock_peers,
-		response
-	] = await stock_peers__fetch_get(ticker, iex_fetch__params)
-	return response.ok ? stock_peers : null
+		payload,
+		res
+	] = await stock_peers__fetch_get(
+		ticker,
+		iex_fetch__params)
+	if (!res.ok) {
+		console.error('stock_peers_|!res.ok', { payload })
+		return null
+	}
+	return payload
 }

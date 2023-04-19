@@ -16,7 +16,9 @@ export function ref_data_symbols_path_() {
 export async function ref_data_symbols__fetch_get(
 	iex_fetch__params = {}
 ) {
-	return iex__fetch_get(ref_data_symbols_path_(), iex_fetch__params)
+	return iex__fetch_get(
+		ref_data_symbols_path_(),
+		iex_fetch__params)
 }
 /**
  * @param {import('../_types')}[params]
@@ -25,8 +27,12 @@ export async function ref_data_symbols__fetch_get(
  */
 export async function ref_data_symbol_a_(params = {}) {
 	const [
-		ref_data_symbols,
+		payload,
 		res
 	] = await ref_data_symbols__fetch_get(params)
-	return res.ok ? ref_data_symbols : null
+	if (!res.ok) {
+		console.error('ref_data_symbol_a_|!res.ok', { payload })
+		return null
+	}
+	return payload
 }

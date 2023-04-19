@@ -19,7 +19,9 @@ export function fx_rate__fetch_get(
 	fx_rate__params,
 	iex_fetch__params = {}
 ) {
-	return iex__fetch_get(fx_rate_path_(fx_rate__params), iex_fetch__params)
+	return iex__fetch_get(
+		fx_rate_path_(fx_rate__params),
+		iex_fetch__params)
 }
 /**
  * @param {import('../_types').fx_rate__params_T}fx_rate__params
@@ -37,6 +39,12 @@ export async function fx_rate_(
 	const [
 		payload,
 		res
-	] = await fx_rate__fetch_get(fx_rate__params, iex_fetch__params)
-	return res.ok ? payload.rate : null
+	] = await fx_rate__fetch_get(
+		fx_rate__params,
+		iex_fetch__params)
+	if (!res.ok) {
+		console.error('fx_rate_|!res.ok', { payload })
+		return null
+	}
+	return payload.rate
 }

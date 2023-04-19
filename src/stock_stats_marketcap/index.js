@@ -18,7 +18,9 @@ export function stock_stats_marketcap__fetch_get(
 	ticker,
 	iex_fetch__params = {}
 ) {
-	return iex__fetch_get(stock_stats_marketcap_path_(ticker), iex_fetch__params)
+	return iex__fetch_get(
+		stock_stats_marketcap_path_(ticker),
+		iex_fetch__params)
 }
 /**
  * @param {string}ticker
@@ -33,6 +35,12 @@ export async function stock_stats_marketcap_(
 	const [
 		payload,
 		res
-	] = await stock_stats_marketcap__fetch_get(ticker, iex_fetch__params)
-	return res.ok ? payload.marketcap : null
+	] = await stock_stats_marketcap__fetch_get(
+		ticker,
+		iex_fetch__params)
+	if (!res.ok) {
+		console.error('stock_stats_marketcap_|!res.ok', { payload })
+		return null
+	}
+	return payload.marketcap
 }

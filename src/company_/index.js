@@ -10,10 +10,16 @@ export async function company_(
 	iex_fetch__params = {}
 ) {
 	const [
-		company,
+		payload,
 		res
-	] = await stock_company__fetch_get(ticker, iex_fetch__params)
-	return res.ok ? company : null
+	] = await stock_company__fetch_get(
+		ticker,
+		iex_fetch__params)
+	if (!res.ok) {
+		console.error('company_|!res.ok', { payload })
+		return null
+	}
+	return payload
 }
 export {
 	company_ as stock_company_,

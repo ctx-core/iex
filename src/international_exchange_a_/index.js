@@ -8,8 +8,12 @@ export async function international_exchange_a_(
 	params = {}
 ) {
 	const [
-		ref_data_exchanges,
+		payload,
 		res
 	] = await ref_data_exchanges__fetch_get(params)
-	return res.ok ? ref_data_exchanges : null
+	if (!res.ok) {
+		console.error('international_exchange_a_|!res.ok', { payload })
+		return null
+	}
+	return payload
 }

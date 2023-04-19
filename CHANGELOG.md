@@ -1,5 +1,28 @@
 # @ctx-core/iex
 
+## 8.1.54
+
+### Patch Changes
+
+- error response: + console.error:
+
+      company_
+      fx_rate_
+      iex__fetch_get__arg_a_
+      international_exchange_a_
+      isin_mapping_
+      key_stat_
+      quote_
+      ref_data_exchange_symbol_a_
+      ref_data_symbol_a_
+      stock_peers_
+      stock_stats_marketcap_
+      stock_stats_peRatio_
+      stock_stats_ytdChangePercent_
+      us_exchange_a_
+
+- dependencies: - @ctx-core/object
+
 ## 8.1.53
 
 ### Patch Changes

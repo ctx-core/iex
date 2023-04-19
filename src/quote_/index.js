@@ -10,10 +10,16 @@ export async function quote_(
 	iex_fetch__params = {}
 ) {
 	const [
-		quote,
+		payload,
 		res
-	] = await stock_quote__fetch_get(ticker, iex_fetch__params)
-	return res.ok ? quote : null
+	] = await stock_quote__fetch_get(
+		ticker,
+		iex_fetch__params)
+	if (!res.ok) {
+		console.error('quote_|!res.ok', { payload })
+		return null
+	}
+	return payload
 }
 export {
 	quote_ as stock_quote_

@@ -19,5 +19,7 @@ export function stock_stats__fetch_get(
 	ticker,
 	iex_fetch__params = {}
 ) {
-	return iex__fetch_get(stock_stats_path_(ticker), iex_fetch__params)
+	return iex__fetch_get(
+		stock_stats_path_(ticker),
+		iex_fetch__params)
 }

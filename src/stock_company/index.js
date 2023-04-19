@@ -19,5 +19,7 @@ export function stock_company__fetch_get(
 	string,
 	iex_fetch__params = {}
 ) {
-	return iex__fetch_get(stock_company_path_(string), iex_fetch__params)
+	return iex__fetch_get(
+		stock_company_path_(string),
+		iex_fetch__params)
 }

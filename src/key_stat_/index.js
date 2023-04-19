@@ -14,8 +14,14 @@ export async function key_stat_(
 	const [
 		payload,
 		res
-	] = await stock_stats__fetch_get(ticker, iex_fetch__params)
-	return res.ok ? payload : null
+	] = await stock_stats__fetch_get(
+		ticker,
+		iex_fetch__params)
+	if (!res.ok) {
+		console.error('key_stat_|!res.ok', { payload })
+		return null
+	}
+	return payload
 }
 export {
 	key_stat_ as stock_stats_

@@ -19,7 +19,9 @@ export async function ref_data_exchange_symbols__fetch_get(
 	exchange,
 	iex_fetch__params
 ) {
-	return iex__fetch_get(ref_data_exchange_symbols_path_(exchange), iex_fetch__params)
+	return iex__fetch_get(
+		ref_data_exchange_symbols_path_(exchange),
+		iex_fetch__params)
 }
 /**
  * @param {string}exchange
@@ -32,8 +34,14 @@ export async function ref_data_exchange_symbol_a_(
 	iex_fetch__params
 ) {
 	const [
-		fx_symbols,
+		payload,
 		res
-	] = await ref_data_exchange_symbols__fetch_get(exchange, iex_fetch__params)
-	return res.ok ? fx_symbols : null
+	] = await ref_data_exchange_symbols__fetch_get(
+		exchange,
+		iex_fetch__params)
+	if (!res.ok) {
+		console.error('ref_data_exchange_symbol_a_|!res.ok', { payload })
+		return null
+	}
+	return payload
 }

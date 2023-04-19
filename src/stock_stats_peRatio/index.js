@@ -18,7 +18,9 @@ export function stock_stats_peRatio__fetch_get(
 	ticker,
 	iex_fetch__params = {}
 ) {
-	return iex__fetch_get(stock_stats_peRatio_path_(ticker), iex_fetch__params)
+	return iex__fetch_get(
+		stock_stats_peRatio_path_(ticker),
+		iex_fetch__params)
 }
 /**
  * @param {string}ticker
@@ -33,6 +35,14 @@ export async function stock_stats_peRatio_(
 	const [
 		payload,
 		res
-	] = await stock_stats_peRatio__fetch_get(ticker, iex_fetch__params)
-	return res.ok ? payload.peRatio : null
+	] = await stock_stats_peRatio__fetch_get(
+		ticker,
+		iex_fetch__params)
+	if (!res.ok) {
+		console.error('stock_stats_peRatio_|!res.ok', {
+			payload
+		})
+		return null
+	}
+	return payload.peRatio
 }

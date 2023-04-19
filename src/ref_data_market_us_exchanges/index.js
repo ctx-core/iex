@@ -17,5 +17,7 @@ export function ref_data_market_us_exchanges_path_() {
 export async function ref_data_market_us_exchanges__fetch_get(
 	iex_fetch__params = {}
 ) {
-	return iex__fetch_get(ref_data_market_us_exchanges_path_(), iex_fetch__params)
+	return iex__fetch_get(
+		ref_data_market_us_exchanges_path_(),
+		iex_fetch__params)
 }

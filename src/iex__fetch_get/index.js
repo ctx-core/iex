@@ -3,7 +3,6 @@ import { utc_yyyymmdd_, utc_yyyymmddhhmmss_ } from '@ctx-core/date'
 import { import_meta_env_ } from '@ctx-core/env'
 import { http_error_ } from '@ctx-core/error'
 import { fetch } from '@ctx-core/fetch-undici'
-import { clone } from '@ctx-core/object'
 import { queue_ } from '@ctx-core/queue'
 import { query_str_ } from '@ctx-core/uri'
 /** @typedef {import('@ctx-core/error').HttpError}HttpError */
@@ -72,8 +71,12 @@ async function iex__fetch_get__arg_a_(
 	path,
 	argv__iex_fetch__params = {}
 ) {
-	const iex_fetch__params = clone(argv__iex_fetch__params)
-	const IEX_HOST = argv__iex_fetch__params.IEX_HOST || import_meta_env_().IEX_HOST
+	const iex_fetch__params = {
+		...argv__iex_fetch__params
+	}
+	const IEX_HOST =
+		argv__iex_fetch__params.IEX_HOST
+		|| import_meta_env_().IEX_HOST
 	const IEX_PUBLIC_KEY =
 		argv__iex_fetch__params.IEX_PUBLIC_KEY
 		|| import_meta_env_().IEX_PUBLIC_KEY
@@ -119,7 +122,10 @@ async function iex__fetch_get__arg_a_(
 		'x-iex-date': iexdate,
 		'Authorization': authorization_header
 	}
-	iex_fetch__params.headers = clone(argv__iex_fetch__params.headers, headers)
+	iex_fetch__params.headers = {
+		...argv__iex_fetch__params.headers,
+		headers
+	}
 	return [
 		`${canonical_uri}?${canonical_querystring}`,
 		iex_fetch__params

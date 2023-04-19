@@ -10,10 +10,16 @@ export async function isin_mapping_(
 	iex_fetch__params = {}
 ) {
 	const [
-		ref_data_isin,
+		payload,
 		res
-	] = await ref_data_isin__fetch_get(isin, iex_fetch__params)
-	return res.ok ? ref_data_isin : null
+	] = await ref_data_isin__fetch_get(
+		isin,
+		iex_fetch__params)
+	if (!res.ok) {
+		console.error('isin_mapping_|!res.ok', { payload })
+		return null
+	}
+	return payload
 }
 export {
 	isin_mapping_ as ref_data_isin_,
