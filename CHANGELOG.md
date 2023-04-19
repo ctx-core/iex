@@ -1,5 +1,11 @@
 # @ctx-core/iex
 
+## 8.1.53
+
+### Patch Changes
+
+- dependencies: fix: vite error: dependencies: - crypto
+
 ## 8.1.52
 
 ### Patch Changes
