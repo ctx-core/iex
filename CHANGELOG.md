@@ -1,5 +1,14 @@
 # @ctx-core/iex
 
+## 8.1.100
+
+### Patch Changes
+
+- @ctx-core/error: ^12.3.32 -> ^12.3.33
+- @ctx-core/env: ^17.2.103 -> ^17.2.104
+- @ctx-core/fetch-undici: ^2.6.70 -> ^2.6.71
+- @ctx-core/uri: ^12.4.44 -> ^12.4.45
+
 ## 8.1.99
 
 ### Patch Changes
