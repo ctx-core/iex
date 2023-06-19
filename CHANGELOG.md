@@ -1,5 +1,11 @@
 # @ctx-core/iex
 
+## 8.1.122
+
+### Patch Changes
+
+- @ctx-core/env: ^17.2.114 -> ^17.2.115
+
 ## 8.1.121
 
 ### Patch Changes
