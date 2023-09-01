@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/iex",
-	"version": "8.1.148",
+	"version": "8.1.149",
 	"description": "@ctx-core/iex",
 	"keywords": [
 		"ctx-core",
@@ -34,9 +34,9 @@
 	"dependencies": {
 		"@ctx-core/crypto": "^1.2.20",
 		"@ctx-core/date": "^13.3.22",
-		"@ctx-core/env": "^17.3.2",
+		"@ctx-core/env": "^17.3.3",
 		"@ctx-core/error": "^12.3.41",
-		"@ctx-core/fetch-undici": "^2.6.104",
+		"@ctx-core/fetch-undici": "^2.6.105",
 		"@ctx-core/queue": "^7.9.1",
 		"@ctx-core/uri": "^12.4.54",
 		"iex-cloud": "^2.2.0",
