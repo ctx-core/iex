@@ -1,5 +1,19 @@
 # @ctx-core/iex
 
+## 8.1.151
+
+### Patch Changes
+
+- version bump
+- Updated dependencies
+  - @ctx-core/crypto@1.2.21
+  - @ctx-core/date@13.3.23
+  - @ctx-core/env@17.3.5
+  - @ctx-core/error@12.3.42
+  - @ctx-core/fetch-undici@2.6.106
+  - @ctx-core/queue@7.9.2
+  - @ctx-core/uri@12.4.55
+
 ## 8.1.150
 
 ### Patch Changes
