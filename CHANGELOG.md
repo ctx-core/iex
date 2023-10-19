@@ -1,5 +1,22 @@
 # @ctx-core/iex
 
+## 8.1.187
+
+### Patch Changes
+
+- tsx: ^3.13.0 -> ^3.14.0
+- Updated dependencies
+- Updated dependencies
+- Updated dependencies
+- Updated dependencies
+  - @ctx-core/queue@7.9.3
+  - @ctx-core/fetch-undici@3.0.30
+  - @ctx-core/crypto@1.2.22
+  - @ctx-core/date@13.3.24
+  - @ctx-core/env@17.3.10
+  - @ctx-core/error@12.3.45
+  - @ctx-core/uri@12.4.58
+
 ## 8.1.186
 
 ### Patch Changes

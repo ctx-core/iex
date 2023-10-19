@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/iex",
-	"version": "8.1.186",
+	"version": "8.1.187",
 	"description": "@ctx-core/iex",
 	"keywords": [
 		"ctx-core",
@@ -32,20 +32,20 @@
 		"test-unit-coverage": "c8 pnpm test-unit"
 	},
 	"dependencies": {
-		"@ctx-core/crypto": "^1.2.21",
-		"@ctx-core/date": "^13.3.23",
-		"@ctx-core/env": "^17.3.9",
-		"@ctx-core/error": "^12.3.44",
-		"@ctx-core/fetch-undici": "^3.0.29",
-		"@ctx-core/queue": "^7.9.2",
-		"@ctx-core/uri": "^12.4.57",
+		"@ctx-core/crypto": "^1.2.22",
+		"@ctx-core/date": "^13.3.24",
+		"@ctx-core/env": "^17.3.10",
+		"@ctx-core/error": "^12.3.45",
+		"@ctx-core/fetch-undici": "^3.0.30",
+		"@ctx-core/queue": "^7.9.3",
+		"@ctx-core/uri": "^12.4.58",
 		"iex-cloud": "^2.2.0",
 		"iex-ts-client": "^1.0.0"
 	},
 	"devDependencies": {
 		"c8": "^8.0.1",
 		"check-dts": "^0.7.2",
-		"tsx": "^3.13.0",
+		"tsx": "^3.14.0",
 		"typescript": "next",
 		"uvu": "^0.5.6"
 	},
