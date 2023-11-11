@@ -1,5 +1,34 @@
 # @ctx-core/iex
 
+## 8.2.0
+
+### Minor Changes
+
+- fix:types package.json exports
+- tsconfig:
+
+      "module": "ESNext"
+      "moduleResolution": "nodenext"
+      "target": "ESNext"
+
+### Patch Changes
+
+- package.json: - "svelte": "./src/index.js"
+- Updated dependencies
+- Updated dependencies
+- Updated dependencies
+- Updated dependencies
+- Updated dependencies
+- Updated dependencies
+- Updated dependencies
+  - @ctx-core/crypto@1.3.0
+  - @ctx-core/date@13.4.0
+  - @ctx-core/env@17.4.0
+  - @ctx-core/error@12.4.0
+  - @ctx-core/fetch-undici@3.1.0
+  - @ctx-core/queue@7.10.0
+  - @ctx-core/uri@12.5.0
+
 ## 8.1.212
 
 ### Patch Changes

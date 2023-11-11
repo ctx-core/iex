@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/iex",
-	"version": "8.1.212",
+	"version": "8.2.0",
 	"description": "@ctx-core/iex",
 	"keywords": [
 		"ctx-core",
@@ -17,9 +17,33 @@
 	"license": "Apache-2.0",
 	"author": "Brian Takita",
 	"type": "module",
-	"types": "./src/index.d.ts",
+	"files": [
+		"*.d.ts",
+		"./_types",
+		"./company_",
+		"./fx_rate",
+		"./iex__fetch_get",
+		"./international_exchange_a_",
+		"./isin_mapping_",
+		"./key_stat_",
+		"./quote_",
+		"./ref_data_exchange_symbol_a",
+		"./ref_data_exchanges",
+		"./ref_data_isin",
+		"./ref_data_market_us_exchanges",
+		"./ref_data_symbol_a",
+		"./stock_company",
+		"./stock_peers",
+		"./stock_quote",
+		"./stock_stats",
+		"./stock_stats_marketcap",
+		"./stock_stats_peRatio",
+		"./stock_stats_ytdChangePercent",
+		"./us_exchange_a_"
+	],
+	"types": "./index.d.ts",
 	"exports": {
-		".": "./src/index.js",
+		".": "./index.js",
 		"./package.json": "./package.json"
 	},
 	"scripts": {
@@ -32,13 +56,13 @@
 		"test-unit-coverage": "c8 pnpm test-unit"
 	},
 	"dependencies": {
-		"@ctx-core/crypto": "^1.2.22",
-		"@ctx-core/date": "^13.3.24",
-		"@ctx-core/env": "^17.3.19",
-		"@ctx-core/error": "^12.3.49",
-		"@ctx-core/fetch-undici": "^3.0.52",
-		"@ctx-core/queue": "^7.9.5",
-		"@ctx-core/uri": "^12.4.62",
+		"@ctx-core/crypto": "^1.3.0",
+		"@ctx-core/date": "^13.4.0",
+		"@ctx-core/env": "^17.4.0",
+		"@ctx-core/error": "^12.4.0",
+		"@ctx-core/fetch-undici": "^3.1.0",
+		"@ctx-core/queue": "^7.10.0",
+		"@ctx-core/uri": "^12.5.0",
 		"iex-cloud": "^2.2.0",
 		"iex-ts-client": "^1.0.0"
 	},
@@ -53,6 +77,5 @@
 		"access": "public",
 		"cache": "~/.npm"
 	},
-	"svelte": "./src/index.js",
 	"sideEffects": false
 }
