@@ -1,5 +1,19 @@
 # @ctx-core/iex
 
+## 8.2.2
+
+### Patch Changes
+
+- fix: missing tsconfig.json
+- Updated dependencies
+  - @ctx-core/crypto@1.3.2
+  - @ctx-core/date@13.4.2
+  - @ctx-core/env@17.4.2
+  - @ctx-core/error@12.4.2
+  - @ctx-core/fetch-undici@3.1.2
+  - @ctx-core/queue@7.10.2
+  - @ctx-core/uri@12.5.2
+
 ## 8.2.1
 
 ### Patch Changes
