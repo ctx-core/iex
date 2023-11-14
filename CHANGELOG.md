@@ -1,5 +1,19 @@
 # @ctx-core/iex
 
+## 8.2.3
+
+### Patch Changes
+
+- package.json: files: + \*.js
+- Updated dependencies
+  - @ctx-core/crypto@1.3.3
+  - @ctx-core/date@13.4.3
+  - @ctx-core/env@17.4.3
+  - @ctx-core/error@12.4.3
+  - @ctx-core/fetch-undici@3.1.3
+  - @ctx-core/queue@7.10.3
+  - @ctx-core/uri@12.5.3
+
 ## 8.2.2
 
 ### Patch Changes
