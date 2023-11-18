@@ -1,5 +1,17 @@
 # @ctx-core/iex
 
+## 8.2.26
+
+### Patch Changes
+
+- @ctx-core/env: ^17.4.15 -> ^17.4.16
+- Updated dependencies
+  - @ctx-core/crypto@1.3.16
+  - @ctx-core/date@13.4.16
+  - @ctx-core/error@12.4.15
+  - @ctx-core/queue@7.10.16
+  - @ctx-core/uri@12.5.16
+
 ## 8.2.25
 
 ### Patch Changes
