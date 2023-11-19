@@ -1,5 +1,5 @@
 import { iex__fetch_get } from '../iex__fetch_get/index.js'
-/** @typedef {import('@ctx-core/error').HttpError}HttpError */
+/** @typedef {import('@ctx-core/error').HttpError} */
 /**
  * @param {import('../_types/index.d.ts').fx_rate__params_T}params
  * @returns {string}

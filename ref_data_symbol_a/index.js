@@ -1,6 +1,6 @@
 import { iex__fetch_get } from '../iex__fetch_get/index.js'
-/** @typedef {import('@ctx-core/error').HttpError}HttpError */
-/** @typedef {import('../_types/index.d.ts').IEXRefDataSymbol}IEXRefDataSymbol */
+/** @typedef {import('@ctx-core/error').HttpError} */
+/** @typedef {import('../_types/index.d.ts').IEXRefDataSymbol} */
 /**
  * @returns {string}
  * @private

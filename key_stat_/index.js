@@ -1,6 +1,6 @@
 import { stock_stats__fetch_get } from '../stock_stats/index.js'
-/** @typedef {import('iex-cloud').KeyStat}KeyStat */
-/** @typedef {import('../_types/index.d.ts').iex_fetch__params_T}iex_fetch__params_T */
+/** @typedef {import('iex-cloud').KeyStat} */
+/** @typedef {import('../_types/index.d.ts').iex_fetch__params_T} */
 /**
  * @param {string}ticker
  * @param {iex_fetch__params_T}[iex_fetch__params]

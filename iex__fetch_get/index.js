@@ -5,8 +5,8 @@ import { http_error_ } from '@ctx-core/error'
 import { fetch } from '@ctx-core/fetch-undici'
 import { queue_ } from '@ctx-core/queue'
 import { query_str_ } from '@ctx-core/uri'
-/** @typedef {import('@ctx-core/error').HttpError}HttpError */
-/** @typedef {import('../_types/index.d.ts').iex_fetch__params_T}iex_fetch__params_T */
+/** @typedef {import('@ctx-core/error').HttpError} */
+/** @typedef {import('../_types/index.d.ts').iex_fetch__params_T} */
 let queue = queue_(1)
 /**
  * @param {number}queue_size

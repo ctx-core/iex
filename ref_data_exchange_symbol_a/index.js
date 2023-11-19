@@ -4,8 +4,8 @@ import { iex__fetch_get } from '../iex__fetch_get/index.js'
  * @returns {string}
  * @private
  */
-/** @typedef {import('@ctx-core/error').HttpError}HttpError */
-/** @typedef {import('iex-cloud').IEXRefDataExchangeSymbol}IEXRefDataExchangeSymbol */
+/** @typedef {import('@ctx-core/error').HttpError} */
+/** @typedef {import('iex-cloud').IEXRefDataExchangeSymbol} */
 export function ref_data_exchange_symbols_path_(exchange) {
 	return `/ref-data/exchange/${exchange}/symbols`
 }

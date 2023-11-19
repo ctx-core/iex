@@ -1,6 +1,6 @@
 import { iex__fetch_get } from '../iex__fetch_get/index.js'
-/** @typedef {import('@ctx-core/error').HttpError}HttpError */
-/** @typedef {import('iex-cloud').ISINMapping}ISINMapping */
+/** @typedef {import('@ctx-core/error').HttpError} */
+/** @typedef {import('iex-cloud').ISINMapping} */
 /**
  * @returns {string}
  * @private
