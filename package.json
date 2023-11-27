@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/iex",
-	"version": "8.2.52",
+	"version": "8.2.53",
 	"description": "@ctx-core/iex",
 	"keywords": [
 		"ctx-core",
@@ -62,7 +62,7 @@
 		"@ctx-core/date": "^13.4.31",
 		"@ctx-core/env": "^17.4.34",
 		"@ctx-core/error": "^12.4.30",
-		"@ctx-core/fetch-undici": "^3.1.52",
+		"@ctx-core/fetch-undici": "^3.1.53",
 		"@ctx-core/queue": "^7.10.31",
 		"@ctx-core/uri": "^12.5.31",
 		"iex-cloud": "^2.2.0",
