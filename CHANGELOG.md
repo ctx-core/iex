@@ -1,5 +1,20 @@
 # @ctx-core/iex
 
+## 8.2.71
+
+### Patch Changes
+
+- @ctx-core/date: ^13.4.37 -> ^13.4.38
+- @ctx-core/crypto: ^1.3.37 -> ^1.3.38
+- @ctx-core/error: ^12.4.36 -> ^12.4.37
+- @ctx-core/queue: ^7.10.37 -> ^7.10.38
+- @ctx-core/uri: ^12.5.37 -> ^12.5.38
+- @ctx-core/fetch-undici: ^3.1.70 -> ^3.1.71
+- Updated dependencies
+- Updated dependencies
+- Updated dependencies
+  - @ctx-core/env@17.4.42
+
 ## 8.2.70
 
 ### Patch Changes
