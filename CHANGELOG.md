@@ -1,5 +1,11 @@
 # @ctx-core/iex
 
+## 8.2.81
+
+### Patch Changes
+
+- @ctx-core/fetch-undici: ^3.1.80 -> ^3.1.81
+
 ## 8.2.80
 
 ### Patch Changes
