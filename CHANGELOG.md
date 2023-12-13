@@ -1,5 +1,16 @@
 # @ctx-core/iex
 
+## 8.2.94
+
+### Patch Changes
+
+- @ctx-core/uri: ^12.5.48 -> ^12.6.0
+- Updated dependencies
+  - @ctx-core/crypto@1.3.49
+  - @ctx-core/date@13.4.49
+  - @ctx-core/error@12.4.48
+  - @ctx-core/queue@7.10.49
+
 ## 8.2.93
 
 ### Patch Changes
