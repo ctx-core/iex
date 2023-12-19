@@ -1,11 +1,12 @@
+/// <reference types="ctx-core" />
+/// <reference types="iex-cloud" />
+/// <reference types="../types/index.d.ts" />
 import { iex__fetch_get } from '../iex__fetch_get/index.js'
 /**
  * @param {string}exchange
  * @returns {string}
  * @private
  */
-/** @typedef {import('@ctx-core/error').HttpError} */
-/** @typedef {import('iex-cloud').IEXRefDataExchangeSymbol} */
 export function ref_data_exchange_symbols_path_(exchange) {
 	return `/ref-data/exchange/${exchange}/symbols`
 }
@@ -25,8 +26,8 @@ export async function ref_data_exchange_symbols__fetch_get(
 }
 /**
  * @param {string}exchange
- * @param {import('../_types/index.js').iex_fetch__params_T}iex_fetch__params
- * @returns {Promise<import('../_types/index.js').IEXRefDataExchangeSymbol[]|null>}
+ * @param {iex_fetch__params_T}iex_fetch__params
+ * @returns {Promise<IEXRefDataExchangeSymbol[]|null>}
  * @private
  */
 export async function ref_data_exchange_symbol_a_(

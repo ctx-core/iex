@@ -1,7 +1,7 @@
+/// <reference types="ctx-core" />
+/// <reference types="../types/index.d.ts" />
+/// <reference types="./index.d.ts" />
 import { iex__fetch_get } from '../iex__fetch_get/index.js'
-/** @typedef {import('@ctx-core/error').HttpError} */
-/** @typedef {import('iex-cloud').InternationalExchange} */
-/** @typedef {import('./index.d.ts').ref_data_exchanges__fetch_get__payload_T} */
 /**
  * @returns {string}
  * @private
@@ -10,8 +10,8 @@ export function ref_data_exchanges_path_() {
 	return `/ref-data/exchanges`
 }
 /**
- * @param {import('../_types/index.js').iex_fetch__params_T}[iex_fetch__params]
- * @returns {Promise<ref_data_exchanges__fetch_get__payload_T[], Response]|[HttpError, Response]>}
+ * @param {iex_fetch__params_T}[iex_fetch__params]
+ * @returns {Promise<[ref_data_exchanges__fetch_get__payload_T[], Response]|[HttpError, Response]>}
  * @private
  */
 export async function ref_data_exchanges__fetch_get(

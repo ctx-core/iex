@@ -1,6 +1,7 @@
+/// <reference types="ctx-core" />
+/// <reference types="iex-ts-client" />
+/// <reference types="../_types/index.d.ts" />
 import { iex__fetch_get } from '../iex__fetch_get/index.js'
-/** @typedef {import('@ctx-core/error').HttpError} */
-/** @typedef {import('iex-ts-client').Company} */
 /**
  * @param {string}ticker
  * @returns {string}
@@ -11,7 +12,7 @@ export function stock_company_path_(ticker) {
 }
 /**
  * @param {string}string
- * @param {import('../_types/index.js').iex_fetch__params_T}[iex_fetch__params]
+ * @param {iex_fetch__params_T}[iex_fetch__params]
  * @returns {Promise<[Company, Response]|[HttpError, Response]>}
  * @private
  */

@@ -1,4 +1,4 @@
-import type { HttpError } from '@ctx-core/error'
+import type { HttpError } from 'ctx-core/error'
 import type { iex_fetch__params_T } from '../_types/index.js'
 export declare function iex__fetch_get__queue_size__set(queue_size:number):void
 export declare function iex__fetch_get<T>(

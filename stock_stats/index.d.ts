@@ -1,4 +1,4 @@
-import type { HttpError } from '@ctx-core/error'
+import type { HttpError } from 'ctx-core/error'
 import type { KeyStat } from 'iex-cloud'
 import type { iex_fetch__params_T } from '../_types/index.js'
 export declare function stock_stats_path_(ticker:string):string

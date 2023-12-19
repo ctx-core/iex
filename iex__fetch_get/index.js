@@ -1,12 +1,12 @@
-import { hex__digest, hmac_ } from '@ctx-core/crypto'
-import { utc_yyyymmdd_, utc_yyyymmddhhmmss_ } from '@ctx-core/date'
+/// <reference types="ctx-core" />
+/// <reference types="../types/index.d.ts" />
 import { import_meta_env_ } from '@ctx-core/env'
-import { http_error_ } from '@ctx-core/error'
 import { fetch } from '@ctx-core/fetch-undici'
-import { queue_ } from '@ctx-core/queue'
-import { query_str_ } from '@ctx-core/uri'
-/** @typedef {import('@ctx-core/error').HttpError} */
-/** @typedef {import('../_types/index.d.ts').iex_fetch__params_T} */
+import { hex__digest, hmac_ } from 'ctx-core/crypto'
+import { utc_yyyymmdd_, utc_yyyymmddhhmmss_ } from 'ctx-core/date'
+import { http_error_ } from 'ctx-core/error'
+import { queue_ } from 'ctx-core/queue'
+import { query_str_ } from 'ctx-core/uri'
 let queue = queue_(1)
 /**
  * @param {number}queue_size
@@ -51,9 +51,9 @@ async function _iex_fetch(
 			return new Promise((resolve, reject)=>{
 				console.error('iex__fetch_get: 429:', url)
 				setTimeout(()=>
-						_iex_fetch(path, iex_fetch__params)
-							.then(resolve),
-					100)
+					_iex_fetch(path, iex_fetch__params)
+						.then(resolve),
+				100)
 			})
 		} else {
 			console.error('iex__fetch_get|error', res.status, 'GET', url, text)

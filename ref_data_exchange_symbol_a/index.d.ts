@@ -1,4 +1,4 @@
-import type { HttpError } from '@ctx-core/error'
+import type { HttpError } from 'ctx-core/error'
 import type { iex_fetch__params_T, IEXRefDataExchangeSymbol } from '../_types/index.js'
 export declare function ref_data_exchange_symbols_path_(
 	exchange:string

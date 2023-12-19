@@ -1,6 +1,7 @@
+/// <reference types="ctx-core" />
+/// <reference types="iex-cloud" />
 import { iex__fetch_get } from '../iex__fetch_get/index.js'
-/** @typedef {import('@ctx-core/error').HttpError} */
-/** @typedef {import('iex-cloud').ISINMapping} */
+/** @typedef {import('iex-cloud').ISINMapping}ISINMapping */
 /**
  * @returns {string}
  * @private

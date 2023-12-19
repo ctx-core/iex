@@ -1,6 +1,6 @@
+/// <reference types="ctx-core" />
+/// <reference types="../_types/index.d.ts" />
 import { iex__fetch_get } from '../iex__fetch_get/index.js'
-/** @typedef {import('@ctx-core/error').HttpError} */
-/** @typedef {import('../_types/index.d.ts').IEXRefDataSymbol} */
 /**
  * @returns {string}
  * @private
@@ -9,7 +9,7 @@ export function ref_data_symbols_path_() {
 	return `/ref-data/symbols`
 }
 /**
- * @param {import('../_types/index.js').iex_fetch__params_T}[iex_fetch__params]
+ * @param {iex_fetch__params_T}[iex_fetch__params]
  * @returns {Promise<[IEXRefDataSymbol, Response]|[HttpError, Response]>}
  * @private
  */
@@ -21,8 +21,8 @@ export async function ref_data_symbols__fetch_get(
 		iex_fetch__params)
 }
 /**
- * @param {import('../_types/index.js')}[params]
- * @returns {Promise<import('../_types/index.js').IEXRefDataSymbol[]|null>}
+ * @param {iex_fetch__params_T}[params]
+ * @returns {Promise<IEXRefDataSymbol[]|null>}
  * @private
  */
 export async function ref_data_symbol_a_(params = {}) {

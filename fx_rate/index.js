@@ -1,7 +1,8 @@
+/// <reference types="ctx-core" />
+/// <reference types="../types/index.d.ts" />
 import { iex__fetch_get } from '../iex__fetch_get/index.js'
-/** @typedef {import('@ctx-core/error').HttpError} */
 /**
- * @param {import('../_types/index.d.ts').fx_rate__params_T}params
+ * @param {fx_rate__params_T}params
  * @returns {string}
  * @private
  */
@@ -10,8 +11,8 @@ export function fx_rate_path_(params) {
 	return `/fx/rate/${from}/${to}`
 }
 /**
- * @param {import('../_types/index.js').fx_rate__params_T} fx_rate__params
- * @param {import('../_types/index.js').iex_fetch__params_T}[iex_fetch__params]
+ * @param {fx_rate__params_T} fx_rate__params
+ * @param {iex_fetch__params_T}[iex_fetch__params]
  * @returns {Promise<[{ rate:number }, Response]|[HttpError, Response]>}
  * @private
  */
@@ -24,8 +25,8 @@ export function fx_rate__fetch_get(
 		iex_fetch__params)
 }
 /**
- * @param {import('../_types/index.js').fx_rate__params_T}fx_rate__params
- * @param {import('../_types/index.js').iex_fetch__params_T}[iex_fetch__params]
+ * @param {fx_rate__params_T}fx_rate__params
+ * @param {iex_fetch__params_T}[iex_fetch__params]
  * @returns {Promise<number|null>}
  * @private
  */

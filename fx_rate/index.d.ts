@@ -1,4 +1,4 @@
-import type { HttpError } from '@ctx-core/error'
+import type { HttpError } from 'ctx-core/error'
 import type { fx_rate__params_T, iex_fetch__params_T } from '../_types/index.js'
 export declare function fx_rate_path_(params:fx_rate__params_T):string
 export declare function fx_rate__fetch_get(

@@ -1,5 +1,6 @@
+/// <reference types="ctx-core" />
+/// <reference types="../_types/index.d.ts" />
 import { iex__fetch_get } from '../iex__fetch_get/index.js'
-/** @typedef {import('@ctx-core/error').HttpError} */
 /**
  * @param {string}ticker
  * @returns {string}
@@ -10,7 +11,7 @@ export function stock_stats_marketcap_path_(ticker) {
 }
 /**
  * @param {string}ticker
- * @param {import('../_types/index.js').iex_fetch__params_T}[iex_fetch__params]
+ * @param {iex_fetch__params_T}[iex_fetch__params]
  * @returns {Promise<[{ marketcap:string }, Response]|[HttpError, Response]>}
  * @private
  */
@@ -24,7 +25,7 @@ export function stock_stats_marketcap__fetch_get(
 }
 /**
  * @param {string}ticker
- * @param {import('../_types/index.js').iex_fetch__params_T}[iex_fetch__params]
+ * @param {iex_fetch__params_T}[iex_fetch__params]
  * @returns {Promise<string|null>}
  * @private
  */
