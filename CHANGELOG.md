@@ -1,5 +1,13 @@
 # @ctx-core/iex
 
+## 8.2.114
+
+### Patch Changes
+
+- ctx-core: ^5.2.2 -> ^5.2.3
+- Updated dependencies
+  - @ctx-core/fetch-undici@3.1.112
+
 ## 8.2.113
 
 ### Patch Changes
