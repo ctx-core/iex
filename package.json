@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/iex",
-	"version": "8.2.141",
+	"version": "8.2.142",
 	"description": "@ctx-core/iex",
 	"keywords": [
 		"ctx-core",
@@ -59,7 +59,7 @@
 		"test:unit:coverage": "c8 pnpm test:unit"
 	},
 	"dependencies": {
-		"@ctx-core/fetch-undici": "^3.1.139",
+		"@ctx-core/fetch-undici": "^3.1.140",
 		"ctx-core": "^5.18.3",
 		"iex-cloud": "^2.2.0",
 		"iex-ts-client": "^1.0.0"
