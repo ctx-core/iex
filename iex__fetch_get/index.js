@@ -1,10 +1,10 @@
 /// <reference types="ctx-core" />
 /// <reference types="../types/index.d.ts" />
-import { fetch } from '@ctx-core/fetch-undici'
 import { hex__digest, hmac_ } from 'ctx-core/crypto'
 import { utc_yyyymmdd_, utc_yyyymmddhhmmss_ } from 'ctx-core/date'
 import { import_meta_env_ } from 'ctx-core/env'
 import { http_error_ } from 'ctx-core/error'
+import { fetch } from 'ctx-core/fetch'
 import { queue_ } from 'ctx-core/queue'
 import { query_str_ } from 'ctx-core/uri'
 let queue = queue_(1)
