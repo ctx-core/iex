@@ -52,7 +52,8 @@ async function _iex_fetch(
 				console.error('iex__fetch_get: 429:', url)
 				setTimeout(()=>
 					_iex_fetch(path, iex_fetch__params)
-						.then(resolve),
+						.then(resolve)
+						.catch(err=>reject(err)),
 				100)
 			})
 		} else {
