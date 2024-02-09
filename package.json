@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/iex",
-	"version": "8.2.199",
+	"version": "8.2.200",
 	"description": "@ctx-core/iex",
 	"keywords": [
 		"ctx-core",
@@ -59,7 +59,7 @@
 		"test:unit:coverage": "c8 pnpm test:unit"
 	},
 	"dependencies": {
-		"ctx-core": "^6.0.0",
+		"ctx-core": "^6.1.0",
 		"iex-cloud": "^2.2.0",
 		"iex-ts-client": "^1.0.0"
 	},
