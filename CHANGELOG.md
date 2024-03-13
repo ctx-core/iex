@@ -1,5 +1,11 @@
 # @ctx-core/iex
 
+## 8.2.219
+
+### Patch Changes
+
+- ctx-core: ^6.5.5 -> ^6.5.6
+
 ## 8.2.218
 
 ### Patch Changes
