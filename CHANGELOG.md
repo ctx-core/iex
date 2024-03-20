@@ -1,5 +1,13 @@
 # @ctx-core/iex
 
+## 8.2.225
+
+### Patch Changes
+
+- package.json: author: url,email
+- Updated dependencies
+  - ctx-core@6.6.1
+
 ## 8.2.224
 
 ### Patch Changes
